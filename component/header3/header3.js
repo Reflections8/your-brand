@@ -97,6 +97,13 @@ document.addEventListener('click', (e) => {
       <span class="header3__searchMenu-header-lower-content-tag">Кожаные сумки</span>
     `)
   }
+
+  if (!searchHeader3.classList.contains('header3__hidden')) {
+    header3Wrapper.classList.add('z-1000')
+  } else {
+    header3Wrapper.classList.remove('z-1000')
+  }
+
 })
 
 // ---------- 1.1 Mobile search menu

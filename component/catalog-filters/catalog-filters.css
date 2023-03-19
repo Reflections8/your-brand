@@ -186,6 +186,7 @@
   top: -45px;
   left: 50%;
   transform: translateX(-50%);
+  width: max-content;
 }
 
 .catalog-filters__content-body-section-filters-colorItem-tooltip:after {

@@ -59,7 +59,6 @@
 
 .collectionSlider__sliderWrapper-item {
   min-height: 362px;
-  max-width: 268px;
   width: 100%;
   position: relative;
   display: flex !important;
@@ -176,6 +175,11 @@
 /* --- Gap between slides --- */
 .collectionSlider .slick-list {
   margin: 0 -15px;
+}
+@media screen and (max-width: 576px) {
+  .collectionSlider .slick-list {
+    padding: 0 20% 0 0 !important;
+  }
 }
 
 .collectionSlider .slick-slide {

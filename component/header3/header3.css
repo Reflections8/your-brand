@@ -2,8 +2,11 @@
   width: 100%;
   max-width: 100vw;
   background-color: white;
-  z-index: 1000;
   transition: all .2s ease-in-out;
+}
+
+.z-1000 {
+  z-index: 1000;
 }
 
 .header3__desktopMenu {

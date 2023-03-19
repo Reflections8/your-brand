@@ -187,12 +187,13 @@
   border: none;
   background-color: #FFFFFF;
   padding: 10px 0;
-  max-width: 305px;
+  max-width: calc(100% - 30px);
   width: 100%;
   border-radius: 3px;
-  opacity: 0;
+  opacity: 1;
   font-weight: 500;
   transition: all .2s ease-in-out;
+  color: black;
 }
 
 .catalogGrid__wrapper-item-button:hover {
@@ -201,37 +202,12 @@
   transform: translateX(-50%) scale(1.05);
 }
 
-@media screen and (max-width: 1500px) {
-  .catalogGrid__wrapper-item-button {
-    max-width: 255px;
-  }
-}
-
-@media screen and (max-width: 1400px) {
-  .catalogGrid__wrapper-item-button {
-    max-width: 210px;
-  }
-}
-
-@media screen and (max-width: 1200px) {
-  .catalogGrid__wrapper-item-button {
-    max-width: 160px;
-  }
-}
-
 @media screen and (max-width: 576px) {
   .catalogGrid__wrapper-item-button {
-    max-width: 150px;
     font-size: 14px;
+    max-width: calc(100% - 20px);
   }
 }
-
-@media screen and (max-width: 420px) {
-  .catalogGrid__wrapper-item-button {
-    max-width: 100px;
-  }
-}
-
 
 .catalogGrid__wrapper-item-favoriteIconWrapper {
   position: absolute;
@@ -501,6 +477,7 @@
   border-radius: 3px;
   transition: all .2s ease-in-out;
   border: 2px solid black;
+  color: black;
 }
 
 .catalogGrid__loadMoreBtn:hover {
@@ -703,6 +680,7 @@
   border: none;
   background-color: transparent;
   border-radius: 3px;
+  color: black;
 }
 
 .catalogGrid__paginationBox-pages-item:hover {
@@ -723,6 +701,7 @@
   display: flex;
   align-items: center;
   gap: 10px;
+  color: black;
 }
 
 .catalogGrid__paginationBox-pages-nextPageBtn:hover {

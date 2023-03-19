@@ -1,264 +1,264 @@
 [
   {
     "id": 0,
-    "blue": {
-      "defaultImg": "img/catalogGrid/blue-default.jpg",
-      "hoverImg": "img/catalogGrid/blue-hover.jpg"
-    },
     "pink": {
+      "defaultImg": "img/catalogGrid/pink-default.jpg",
+      "hoverImg": "img/catalogGrid/pink-hover.jpg"
+    },
+    "blue": {
       "defaultImg": "img/catalogGrid/1.jpg",
       "hoverImg": "img/catalogGrid/2.jpg"
     }
   },
   {
     "id": 1,
-    "blue": {
-      "defaultImg": "img/catalogGrid/blue-default.jpg",
-      "hoverImg": "img/catalogGrid/blue-hover.jpg"
-    },
     "pink": {
+      "defaultImg": "img/catalogGrid/pink-default.jpg",
+      "hoverImg": "img/catalogGrid/pink-hover.jpg"
+    },
+    "blue": {
       "defaultImg": "img/catalogGrid/1.jpg",
       "hoverImg": "img/catalogGrid/2.jpg"
     }
   },
   {
     "id": 2,
-    "blue": {
-      "defaultImg": "img/catalogGrid/blue-default.jpg",
-      "hoverImg": "img/catalogGrid/blue-hover.jpg"
-    },
     "pink": {
+      "defaultImg": "img/catalogGrid/pink-default.jpg",
+      "hoverImg": "img/catalogGrid/pink-hover.jpg"
+    },
+    "blue": {
       "defaultImg": "img/catalogGrid/1.jpg",
       "hoverImg": "img/catalogGrid/2.jpg"
     }
   },
   {
     "id": 3,
-    "blue": {
-      "defaultImg": "img/catalogGrid/blue-default.jpg",
-      "hoverImg": "img/catalogGrid/blue-hover.jpg"
-    },
     "pink": {
+      "defaultImg": "img/catalogGrid/pink-default.jpg",
+      "hoverImg": "img/catalogGrid/pink-hover.jpg"
+    },
+    "blue": {
       "defaultImg": "img/catalogGrid/1.jpg",
       "hoverImg": "img/catalogGrid/2.jpg"
     }
   },
   {
     "id": 4,
-    "blue": {
-      "defaultImg": "img/catalogGrid/blue-default.jpg",
-      "hoverImg": "img/catalogGrid/blue-hover.jpg"
-    },
     "pink": {
+      "defaultImg": "img/catalogGrid/pink-default.jpg",
+      "hoverImg": "img/catalogGrid/pink-hover.jpg"
+    },
+    "blue": {
       "defaultImg": "img/catalogGrid/1.jpg",
       "hoverImg": "img/catalogGrid/2.jpg"
     }
   },
   {
     "id": 5,
-    "blue": {
-      "defaultImg": "img/catalogGrid/blue-default.jpg",
-      "hoverImg": "img/catalogGrid/blue-hover.jpg"
-    },
     "pink": {
+      "defaultImg": "img/catalogGrid/pink-default.jpg",
+      "hoverImg": "img/catalogGrid/pink-hover.jpg"
+    },
+    "blue": {
       "defaultImg": "img/catalogGrid/1.jpg",
       "hoverImg": "img/catalogGrid/2.jpg"
     }
   },
   {
     "id": 6,
-    "blue": {
-      "defaultImg": "img/catalogGrid/blue-default.jpg",
-      "hoverImg": "img/catalogGrid/blue-hover.jpg"
-    },
     "pink": {
+      "defaultImg": "img/catalogGrid/pink-default.jpg",
+      "hoverImg": "img/catalogGrid/pink-hover.jpg"
+    },
+    "blue": {
       "defaultImg": "img/catalogGrid/1.jpg",
       "hoverImg": "img/catalogGrid/2.jpg"
     }
   },
   {
     "id": 7,
-    "blue": {
-      "defaultImg": "img/catalogGrid/blue-default.jpg",
-      "hoverImg": "img/catalogGrid/blue-hover.jpg"
-    },
     "pink": {
+      "defaultImg": "img/catalogGrid/pink-default.jpg",
+      "hoverImg": "img/catalogGrid/pink-hover.jpg"
+    },
+    "blue": {
       "defaultImg": "img/catalogGrid/1.jpg",
       "hoverImg": "img/catalogGrid/2.jpg"
     }
   },
   {
     "id": 8,
-    "blue": {
-      "defaultImg": "img/catalogGrid/blue-default.jpg",
-      "hoverImg": "img/catalogGrid/blue-hover.jpg"
-    },
     "pink": {
+      "defaultImg": "img/catalogGrid/pink-default.jpg",
+      "hoverImg": "img/catalogGrid/pink-hover.jpg"
+    },
+    "blue": {
       "defaultImg": "img/catalogGrid/1.jpg",
       "hoverImg": "img/catalogGrid/2.jpg"
     }
   },
   {
     "id": 9,
-    "blue": {
-      "defaultImg": "img/catalogGrid/blue-default.jpg",
-      "hoverImg": "img/catalogGrid/blue-hover.jpg"
-    },
     "pink": {
+      "defaultImg": "img/catalogGrid/pink-default.jpg",
+      "hoverImg": "img/catalogGrid/pink-hover.jpg"
+    },
+    "blue": {
       "defaultImg": "img/catalogGrid/1.jpg",
       "hoverImg": "img/catalogGrid/2.jpg"
     }
   },
   {
     "id": 10,
-    "blue": {
-      "defaultImg": "img/catalogGrid/blue-default.jpg",
-      "hoverImg": "img/catalogGrid/blue-hover.jpg"
-    },
     "pink": {
+      "defaultImg": "img/catalogGrid/pink-default.jpg",
+      "hoverImg": "img/catalogGrid/pink-hover.jpg"
+    },
+    "blue": {
       "defaultImg": "img/catalogGrid/1.jpg",
       "hoverImg": "img/catalogGrid/2.jpg"
     }
   },
   {
     "id": 11,
-    "blue": {
-      "defaultImg": "img/catalogGrid/blue-default.jpg",
-      "hoverImg": "img/catalogGrid/blue-hover.jpg"
-    },
     "pink": {
+      "defaultImg": "img/catalogGrid/pink-default.jpg",
+      "hoverImg": "img/catalogGrid/pink-hover.jpg"
+    },
+    "blue": {
       "defaultImg": "img/catalogGrid/1.jpg",
       "hoverImg": "img/catalogGrid/2.jpg"
     }
   },
   {
     "id": 12,
-    "blue": {
-      "defaultImg": "img/catalogGrid/blue-default.jpg",
-      "hoverImg": "img/catalogGrid/blue-hover.jpg"
-    },
     "pink": {
+      "defaultImg": "img/catalogGrid/pink-default.jpg",
+      "hoverImg": "img/catalogGrid/pink-hover.jpg"
+    },
+    "blue": {
       "defaultImg": "img/catalogGrid/1.jpg",
       "hoverImg": "img/catalogGrid/2.jpg"
     }
   },
   {
     "id": 13,
-    "blue": {
-      "defaultImg": "img/catalogGrid/blue-default.jpg",
-      "hoverImg": "img/catalogGrid/blue-hover.jpg"
-    },
     "pink": {
+      "defaultImg": "img/catalogGrid/pink-default.jpg",
+      "hoverImg": "img/catalogGrid/pink-hover.jpg"
+    },
+    "blue": {
       "defaultImg": "img/catalogGrid/1.jpg",
       "hoverImg": "img/catalogGrid/2.jpg"
     }
   },
   {
     "id": 14,
-    "blue": {
-      "defaultImg": "img/catalogGrid/blue-default.jpg",
-      "hoverImg": "img/catalogGrid/blue-hover.jpg"
-    },
     "pink": {
+      "defaultImg": "img/catalogGrid/pink-default.jpg",
+      "hoverImg": "img/catalogGrid/pink-hover.jpg"
+    },
+    "blue": {
       "defaultImg": "img/catalogGrid/1.jpg",
       "hoverImg": "img/catalogGrid/2.jpg"
     }
   },
   {
     "id": 15,
-    "blue": {
-      "defaultImg": "img/catalogGrid/blue-default.jpg",
-      "hoverImg": "img/catalogGrid/blue-hover.jpg"
-    },
     "pink": {
+      "defaultImg": "img/catalogGrid/pink-default.jpg",
+      "hoverImg": "img/catalogGrid/pink-hover.jpg"
+    },
+    "blue": {
       "defaultImg": "img/catalogGrid/1.jpg",
       "hoverImg": "img/catalogGrid/2.jpg"
     }
   },
   {
     "id": 16,
-    "blue": {
-      "defaultImg": "img/catalogGrid/blue-default.jpg",
-      "hoverImg": "img/catalogGrid/blue-hover.jpg"
-    },
     "pink": {
+      "defaultImg": "img/catalogGrid/pink-default.jpg",
+      "hoverImg": "img/catalogGrid/pink-hover.jpg"
+    },
+    "blue": {
       "defaultImg": "img/catalogGrid/1.jpg",
       "hoverImg": "img/catalogGrid/2.jpg"
     }
   },
   {
     "id": 17,
-    "blue": {
-      "defaultImg": "img/catalogGrid/blue-default.jpg",
-      "hoverImg": "img/catalogGrid/blue-hover.jpg"
-    },
     "pink": {
+      "defaultImg": "img/catalogGrid/pink-default.jpg",
+      "hoverImg": "img/catalogGrid/pink-hover.jpg"
+    },
+    "blue": {
       "defaultImg": "img/catalogGrid/1.jpg",
       "hoverImg": "img/catalogGrid/2.jpg"
     }
   },
   {
     "id": 18,
-    "blue": {
-      "defaultImg": "img/catalogGrid/blue-default.jpg",
-      "hoverImg": "img/catalogGrid/blue-hover.jpg"
-    },
     "pink": {
+      "defaultImg": "img/catalogGrid/pink-default.jpg",
+      "hoverImg": "img/catalogGrid/pink-hover.jpg"
+    },
+    "blue": {
       "defaultImg": "img/catalogGrid/1.jpg",
       "hoverImg": "img/catalogGrid/2.jpg"
     }
   },
   {
     "id": 19,
-    "blue": {
-      "defaultImg": "img/catalogGrid/blue-default.jpg",
-      "hoverImg": "img/catalogGrid/blue-hover.jpg"
-    },
     "pink": {
+      "defaultImg": "img/catalogGrid/pink-default.jpg",
+      "hoverImg": "img/catalogGrid/pink-hover.jpg"
+    },
+    "blue": {
       "defaultImg": "img/catalogGrid/1.jpg",
       "hoverImg": "img/catalogGrid/2.jpg"
     }
   },
   {
     "id": 20,
-    "blue": {
-      "defaultImg": "img/catalogGrid/blue-default.jpg",
-      "hoverImg": "img/catalogGrid/blue-hover.jpg"
-    },
     "pink": {
+      "defaultImg": "img/catalogGrid/pink-default.jpg",
+      "hoverImg": "img/catalogGrid/pink-hover.jpg"
+    },
+    "blue": {
       "defaultImg": "img/catalogGrid/1.jpg",
       "hoverImg": "img/catalogGrid/2.jpg"
     }
   },
   {
     "id": 21,
-    "blue": {
-      "defaultImg": "img/catalogGrid/blue-default.jpg",
-      "hoverImg": "img/catalogGrid/blue-hover.jpg"
-    },
     "pink": {
+      "defaultImg": "img/catalogGrid/pink-default.jpg",
+      "hoverImg": "img/catalogGrid/pink-hover.jpg"
+    },
+    "blue": {
       "defaultImg": "img/catalogGrid/1.jpg",
       "hoverImg": "img/catalogGrid/2.jpg"
     }
   },
   {
     "id": 22,
-    "blue": {
-      "defaultImg": "img/catalogGrid/blue-default.jpg",
-      "hoverImg": "img/catalogGrid/blue-hover.jpg"
-    },
     "pink": {
+      "defaultImg": "img/catalogGrid/pink-default.jpg",
+      "hoverImg": "img/catalogGrid/pink-hover.jpg"
+    },
+    "blue": {
       "defaultImg": "img/catalogGrid/1.jpg",
       "hoverImg": "img/catalogGrid/2.jpg"
     }
   },
   {
     "id": 23,
-    "blue": {
-      "defaultImg": "img/catalogGrid/blue-default.jpg",
-      "hoverImg": "img/catalogGrid/blue-hover.jpg"
-    },
     "pink": {
+      "defaultImg": "img/catalogGrid/pink-default.jpg",
+      "hoverImg": "img/catalogGrid/pink-hover.jpg"
+    },
+    "blue": {
       "defaultImg": "img/catalogGrid/1.jpg",
       "hoverImg": "img/catalogGrid/2.jpg"
     }
