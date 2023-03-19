@@ -1,0 +1,206 @@
+.headerMobilePopup {
+  display: none;
+}
+
+/* --- Header mobile popup ---*/
+@media screen and (max-width: 991px) {
+  .headerMobilePopup {
+    width: 100vw;
+    min-height: 100vh;
+    height: 100%;
+    display: block;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: fixed;
+    z-index: 1010;
+    top: 0;
+    opacity: 1;
+    transition: all .2s ease-in-out;
+  }
+
+  .headerMobilePopup__wrapper {
+    width: 90vw;
+    min-height: 100vh;
+    height: 100%;
+  }
+
+  .headerMobilePopup__menu {
+    width: 90vw;
+    min-height: 100vh;
+    height: 100%;
+    background-color: white;
+  }
+
+  .headerMobilePopup__menu-parent {
+    width: 100%;
+    height: 100%;
+    padding: 30px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .headerMobilePopup__menu-parent-list {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .headerMobilePopup__menu-parent-list-item {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    cursor: pointer;
+    margin-bottom: 18px;
+    transition: all .2s ease-in-out;
+  }
+
+  .headerMobilePopup__menu-parent-list-item:hover {
+    color: #666666;
+  }
+
+  .headerMobilePopup__menu-parent-list-item-title {
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  .headerMobilePopup__menu-parent-list-item-iconWrapper {
+    position: relative;
+  }
+
+  .headerMobilePopup__menu-parent-list-item-iconWrapper-circleTooltip {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    font-size: 12px;
+    background-color: #DA3F3F;
+    border-radius: 50%;
+    color: white;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .headerMobilePopup__menu-parent-authWrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .headerMobilePopup__menu-parent-authWrapper-title {
+    margin-bottom: 25px;
+    font-size: 25px;
+    font-weight: 500;
+  }
+
+  .headerMobilePopup__menu-parent-authWrapper-button {
+    display: block;
+    height: 45px;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 3px;
+    font-weight: 500;
+    font-size: 16px;
+    background-color: transparent;
+    transition: all .2s ease-in-out;
+  }
+
+  .headerMobilePopup__menu-parent-authWrapper-buttonAuth {
+    margin-bottom: 20px;
+    background-color: black;
+    color: white;
+  }
+
+  .headerMobilePopup__menu-parent-authWrapper-buttonAuth:hover {
+    transform: scale(1.02);
+  }
+
+  .headerMobilePopup__menu-parent-authWrapper-buttonReg:hover {
+    background-color: black;
+    color: white;
+    transform: scale(1.02);
+  }
+
+  /* --- Child popup menus --- */
+  .headerMobilePopup__menu-child {
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+    background-color: white;
+  }
+
+  .headerMobilePopup__menu-child-header {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+  }
+
+  .headerMobilePopup__menu-child-header-title {
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  .headerMobilePopup__menu-child-accordion {
+    padding: 0 15px;
+  }
+
+
+  /* --- Accordion --- */
+  .headerMobilePopup__menu-child-accordion-item-button {
+    background-color: transparent;
+    color: black;
+    cursor: pointer;
+    padding: 10px 0;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: .2s;
+    font-size: 18px;
+    font-weight: 400;
+    position: relative;
+  }
+
+  .headerMobilePopup__menu-child-accordion-item-button:after {
+    background-image: url('img/arrow-right.svg');
+    background-repeat: no-repeat;
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 15px;
+    height: 18px;
+    transition: all .2s ease-in-out;
+  }
+
+  .headerMobilePopup__menu-child-accordion-item-panel {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding-left: 10px;
+  }
+
+  .headerMobilePopup__menu-child-accordion-item-panel-link:hover {
+    color: #666666;
+    text-decoration: underline;
+  }
+
+  .headerMobilePopup__menu-child-accordion-item-button.active:after {
+    transform: translateY(-50%) rotate(90deg);
+  }
+
+  /* --- Common --- */
+  .headerMobilePopup__hidden {
+    display: none;
+  }
+
+  .headerMobilePopup__smoothHidden {
+    opacity: 0;
+    pointer-events: none;
+  }
+}

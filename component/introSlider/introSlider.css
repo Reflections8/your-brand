@@ -1,0 +1,134 @@
+.introSlider {
+  height: calc(100vh - 154px);
+  position: relative;
+}
+@media screen and (max-width: 768px) {
+  .introSlider {
+    display: none;
+  }
+}
+
+.introSlider .slick-list {
+  height: calc(100vh - 154px);
+}
+
+.introSlider .slick-track {
+  height: calc(100vh - 154px);
+}
+
+.introSlider .slick-slider {
+  height: calc(100vh - 154px);
+}
+
+@media screen and (max-width: 1400px) {
+  .introSlider,
+  .introSlider .slick-list,
+  .introSlider .slick-track,
+  .introSlider .slick-slider {
+    height: calc(100vh - 217px);
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .introSlider,
+  .introSlider .slick-list,
+  .introSlider .slick-track,
+  .introSlider .slick-slider {
+    height: calc(100vh - 106px);
+  }
+}
+
+.introSlider .slick-dots {
+  top: 0;
+  width: unset;
+  height: 36px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  right: 67px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.introSlider .slick-dots li {
+  width: inherit;
+  height: inherit;
+}
+
+.introSlider__dotsContainer {
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.introSlider__dotsContainer-dot {
+  cursor: pointer;
+  transition: all .2s ease-in-out;
+}
+
+.introSlider__dotsContainer-dot:hover {
+  transform: scale(1.3);
+}
+
+
+.introSlider .slick-dots li.slick-active .halfcircle {
+  display: block;
+}
+
+.introSlider .slick-slide > div {
+  height: 100%;
+}
+
+.introSlider__item {
+  position: relative;
+  height: 100%;
+}
+
+.introSlider__item-bg {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.introSlider__item-info {
+  font-weight: 500;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.introSlider__item-info-suptitle {
+  font-size: 20px;
+}
+
+.introSlider__item-info-title {
+  font-size: 70px;
+  margin-bottom: 3%;
+}
+
+.introSlider__item-info-button {
+  border: none;
+  background-color: transparent;
+  max-width: 220px;
+}
+
+.introSlider__item-info-button-link {
+  padding: 10px 20px;
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: 1px solid black;
+  border-radius: 3px;
+  font-weight: 500;
+  transition: all .2s ease-in-out;
+}
+
+.introSlider__item-info-button-link:hover {
+  color: white;
+  background-color: black;
+}

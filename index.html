@@ -1,0 +1,3377 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>Your Brand</title>
+
+		<!-- Bootstrap -->
+		<link href="libs/bootstrap/bootstrap-5.0.2.min.css" rel="stylesheet">
+
+		<!-- SlickSlider -->
+		<link rel="stylesheet" type="text/css"
+					href="libs/slick-slider/slick/slick.css"/>
+		<link rel="stylesheet" type="text/css"
+					href="libs/slick-slider/slick/slick-theme.css"/>
+
+		<!-- Normalize default styles -->
+		<link rel="stylesheet" type="text/css" href="normalize.css">
+
+		<!-- Global styles -->
+		<link rel="stylesheet" type="text/css" href="style.css">
+
+		<!-- Component styles -->
+		<link rel="stylesheet" type="text/css" href="component/loader/loader.css">
+		<link rel="stylesheet" type="text/css" href="component/header1/header1.css">
+		<link rel="stylesheet" type="text/css" href="component/header2/header2.css">
+		<link rel="stylesheet" type="text/css" href="component/header3/header3.css">
+		<link rel="stylesheet" type="text/css" href="component/headerMobilePopup/headerMobilePopup.css">
+		<link rel="stylesheet" type="text/css" href="component/introSlider/introSlider.css">
+		<link rel="stylesheet" type="text/css" href="component/introSliderMobile/introSliderMobile.css">
+		<link rel="stylesheet" type="text/css" href="component/collectionSlider/collectionSlider.css">
+		<link rel="stylesheet" type="text/css" href="component/catalogGrid/catalogGrid.css">
+		<link rel="stylesheet" type="text/css" href="component/benefits/benefits.css">
+		<link rel="stylesheet" type="text/css" href="component/footer1/footer1.css">
+		<link rel="stylesheet" type="text/css" href="component/footer2/footer2.css">
+</head>
+<body>
+
+
+<!-- component/loader -->
+<div class="loader loader__hidden">
+		<div class="loader__item"></div>
+</div>
+
+<header class="header">
+		<!-- component/header1 -->
+		<div class="header1">
+				<div class="header1__text">
+						Бесплатная доставка при заказе свыше 5000 рублей. Не упустите скидку.
+				</div>
+				<img data-src="component/header1/img/closing-icon.svg" alt="close-icon" class="b-lazy header1__closeIcon">
+		</div>
+
+		<!-- component/header2 -->
+		<div class="header2">
+				<div class="container">
+						<div class="row align-items-center justify-content-between">
+								<div class="col-3 header2__socialLinks">
+										<a href="#" target="_blank" class="header2__socialLinks-link">
+												<img data-src="img/social/vk.svg" alt="vk" class="b-lazy header2__socialLinks-link-icon">
+										</a>
+										<a href="#" target="_blank" class="header2__socialLinks-link">
+												<img data-src="img/social/telegram.svg" alt="telegram"
+														 class="b-lazy header2__socialLinks-link-icon">
+										</a>
+										<a href="#" target="_blank" class="header2__socialLinks-link">
+												<img data-src="img/social/whatsapp.svg" alt="whatsapp"
+														 class="b-lazy header2__socialLinks-link-icon">
+										</a>
+										<a href="#" target="_blank" class="header2__socialLinks-link">
+												<img data-src="img/social/24.svg" alt="24" class="b-lazy header2__socialLinks-link-icon">
+										</a>
+										<a href="#" target="_blank" class="header2__socialLinks-link">
+												<img data-src="img/social/yandex.svg" alt="yandex"
+														 class="b-lazy header2__socialLinks-link-icon">
+										</a>
+								</div>
+
+								<div class="col-5 d-flex justify-content-center header2__text">
+										<div class="header2__text-simple">Открой дверь в мир моды</div>
+										<div class="header2__text-line"></div>
+										<a href="#" target="_blank" class="header2__text-link">Узнай больше</a>
+								</div>
+
+								<div class="col-3 d-flex justify-content-end header2__currencyBox">
+										<!-- Active dropdown value -->
+										<div class="d-flex header2__currencyBox-wrapper">
+												<div class="header2__currencyBox-wrapper-activeCurrency">RUB</div>
+												<img data-src="component/header2/img/arrow-down.svg" alt="arrow-down"
+														 class="b-lazy header2__currencyBox-wrapper-arrow">
+										</div>
+
+										<!-- Dropdown menu -->
+										<ul class="header2__currencyBox-dropdownMenu hidden">
+												<li class="header2__currencyBox-dropdownMenu-item">USD</li>
+												<li class="header2__currencyBox-dropdownMenu-item">BTC</li>
+												<li class="header2__currencyBox-dropdownMenu-item">RUB</li>
+										</ul>
+								</div>
+						</div>
+				</div>
+		</div>
+
+		<!-- component/header3 -->
+		<div class="header3" style="position: relative; top: 0" data-header3-container>
+				<div class="container">
+						<!-- Desktop header > 991px -->
+						<div class="d-none d-lg-flex row align-items-center justify-content-between header3__desktopMenu">
+
+								<!-- Navigation -->
+								<nav class="col-5 header3__nav">
+
+										<div data-nav-category="catalog" class="header3__nav-menuItem">
+												<div class="header3__nav-menuItem-title">Каталог</div>
+												<img data-src="component/header3/img/arrow-down.svg" alt="arrow-down"
+														 class="b-lazy header3__nav-menuItem-icon">
+										</div>
+
+										<div data-nav-category="newItems" class="header3__nav-menuItem">
+												<div class="header3__nav-menuItem-title">Новинки</div>
+												<img data-src="component/header3/img/arrow-down.svg" alt="arrow-down"
+														 class="b-lazy header3__nav-menuItem-icon">
+										</div>
+
+										<div data-nav-category="bestSellers" class="header3__nav-menuItem">
+												<div class="header3__nav-menuItem-title">Бестселлеры</div>
+												<img data-src="component/header3/img/arrow-down.svg" alt="arrow-down"
+														 class="b-lazy header3__nav-menuItem-icon">
+										</div>
+
+										<div data-nav-category="aboutBrand" class="header3__nav-menuItem">
+												<div class="header3__nav-menuItem-title">О бренде</div>
+										</div>
+
+										<div data-nav-category="forCustomers" class="header3__nav-menuItem">
+												<div class="header3__nav-menuItem-title">Покупателям</div>
+												<img data-src="component/header3/img/arrow-down.svg" alt="arrow-down"
+														 class="b-lazy header3__nav-menuItem-icon">
+										</div>
+								</nav>
+
+								<img loading="lazy" data-src="component/header3/img/logo.svg" class="b-lazy col-2 header3__logo"
+										 alt="logo">
+
+								<!-- Action buttons -->
+								<div class="col-5 header3__actionsBox">
+										<div class="header3__actionsBox-transferredNavContainer header3__nav"></div>
+										<div class="header3__actionsBox-item">
+												<img data-src="component/header3/img/search.svg"
+														 class="b-lazy header3__actionsBox-item-icon header3__actionsBox-item-iconSearch"
+														 alt="search">
+
+												<!-- Tooltip -->
+												<div class="header3__actionsBox-item-tooltip">
+														Поиск
+												</div>
+
+										</div>
+										<div class="header3__actionsBox-item">
+												<img data-src="component/header3/img/user.svg" class="b-lazy header3__actionsBox-item-icon"
+														 alt="user">
+
+												<!-- Tooltip -->
+												<div class="header3__actionsBox-item-tooltip">
+														Профиль
+												</div>
+
+										</div>
+										<div class="header3__actionsBox-item">
+												<img data-src="component/header3/img/star.svg" class="b-lazy header3__actionsBox-item-icon"
+														 alt="star">
+
+												<!-- Tooltip -->
+												<div class="header3__actionsBox-item-tooltip">
+														Избранное
+												</div>
+
+										</div>
+										<div class="header3__actionsBox-item">
+												<img data-src="component/header3/img/bag.svg" class="b-lazy header3__actionsBox-item-icon"
+														 alt="bag">
+
+												<!-- Tooltip -->
+												<div class="header3__actionsBox-item-tooltip">
+														Корзина
+												</div>
+
+										</div>
+								</div>
+
+								<div class="header3__mainContent">
+										<img loading="lazy" data-src="component/header3/img/logo.svg" class="b-lazy col-2 header3__logo"
+												 alt="logo">
+										<!-- Action buttons -->
+										<div class="col-5 header3__actionsBox">
+												<div class="header3__actionsBox-item">
+														<img data-src="component/header3/img/search.svg"
+																 class="b-lazy header3__actionsBox-item-icon header3__actionsBox-item-iconSearch"
+																 alt="search">
+
+														<!-- Tooltip -->
+														<div class="header3__actionsBox-item-tooltip">
+																Поиск
+														</div>
+
+												</div>
+												<div class="header3__actionsBox-item">
+														<img data-src="component/header3/img/user.svg" class="b-lazy header3__actionsBox-item-icon"
+																 alt="user">
+
+														<!-- Tooltip -->
+														<div class="header3__actionsBox-item-tooltip">
+																Профиль
+														</div>
+
+												</div>
+												<div class="header3__actionsBox-item">
+														<img data-src="component/header3/img/star.svg" class="b-lazy header3__actionsBox-item-icon"
+																 alt="star">
+
+														<!-- Tooltip -->
+														<div class="header3__actionsBox-item-tooltip">
+																Избранное
+														</div>
+
+												</div>
+												<div class="header3__actionsBox-item">
+														<img data-src="component/header3/img/bag.svg" class="header3__actionsBox-item-icon"
+																 alt="bag">
+
+														<!-- Tooltip -->
+														<div class="header3__actionsBox-item-tooltip">
+																Корзина
+														</div>
+
+												</div>
+										</div>
+								</div>
+
+						</div>
+
+						<!-- Mobile header <= 991px -->
+						<div class="d-flex d-lg-none row align-items-center justify-content-between header3__mobileMenu">
+
+								<!-- Burger menu -->
+								<div class="col-4 header3__mobileMenu-burgerMenu">
+										<img class="b-lazy header3__mobileMenu-burgerMenu-img" data-src="component/header3/img/burger.svg"
+												 alt="burger">
+								</div>
+
+								<!-- Logo -->
+								<img class="b-lazy col-4 header3__mobileMenu-burgerMenu-logoMobile" loading="lazy"
+										 data-src="component/header3/img/logo.svg" alt="logo">
+
+								<!-- Action buttons -->
+								<div class="col-4 header3__mobileMenu-burgerMenu-actionBoxMobile">
+
+										<div class="header3__mobileMenu-burgerMenu-actionBoxMobile-item">
+												<img data-src="component/header3/img/search.svg"
+														 class="b-lazy header3__mobileMenu-burgerMenu-actionBoxMobile-item-icon"
+														 alt="search">
+												<!-- Tooltip -->
+												<div class="header3__mobileMenu-burgerMenu-actionBoxMobile-item-tooltip">
+														Поиск
+												</div>
+										</div>
+
+										<div class="header3__mobileMenu-burgerMenu-actionBoxMobile-item">
+												<img data-src="component/header3/img/bag.svg"
+														 class="b-lazy header3__mobileMenu-burgerMenu-actionBoxMobile-item-icon" alt="search">
+												<!-- Tooltip -->
+												<div class="header3__mobileMenu-burgerMenu-actionBoxMobile-item-tooltip">
+														Корзина
+												</div>
+										</div>
+
+								</div>
+						</div>
+
+						<!-- Search header -->
+						<div class="header3__searchMenu header3__hidden">
+
+								<div class="header3__searchMenu-header">
+
+										<!-- Upper section -->
+										<div class="d-flex justify-content-between align-items-center header3__searchMenu-header-upper">
+												<!-- Logo -->
+												<img class="header3__searchMenu-header-upper-logo" loading="lazy"
+														 src="component/header3/img/logo.svg" alt="logo">
+
+												<!-- Searchbar -->
+												<div class="header3__searchMenu-header-upper-searchBar">
+														<form>
+																<input class="header3__searchMenu-header-upper-searchBar-input" type="text"
+																			 placeholder="Введите название товара">
+																<button class="header3__searchMenu-header-upper-searchBar-button" type="submit">
+																		<img class="b-lazy header3__searchMenu-header-upper-searchBar-button-icon"
+																				 data-src="component/header3/img/search.svg" alt="search">
+																</button>
+														</form>
+												</div>
+
+												<!-- Action buttons -->
+												<div class="header3__searchMenu-header-upper-actionBox">
+
+														<div class="header3__searchMenu-header-upper-actionBox-item">
+																<img data-src="component/header3/img/user.svg"
+																		 class="b-lazy header3__searchMenu-header-upper-actionBox-item-icon" alt="user">
+																<!-- Tooltip -->
+																<div class="header3__searchMenu-header-upper-item-tooltip">
+																		Профиль
+																</div>
+														</div>
+
+														<div class="header3__searchMenu-header-upper-actionBox-item">
+																<img data-src="component/header3/img/star.svg"
+																		 class="b-lazy header3__searchMenu-header-upper-actionBox-item-icon" alt="user">
+																<!-- Tooltip -->
+																<div class="header3__searchMenu-header-upper-item-tooltip">
+																		Избранное
+																</div>
+														</div>
+
+														<div class="header3__searchMenu-header-upper-actionBox-item">
+																<img data-src="component/header3/img/bag.svg"
+																		 class="b-lazy header3__searchMenu-header-upper-actionBox-item-icon" alt="user">
+																<!-- Tooltip -->
+																<div class="header3__searchMenu-header-upper-item-tooltip">
+																		Корзина
+																</div>
+														</div>
+
+												</div>
+										</div>
+
+										<!-- Lower section -->
+										<div class="header3__searchMenu-header-lower">
+												<div class="header3__searchMenu-header-lower-title">
+														Популярные запросы:
+												</div>
+												<div class="header3__searchMenu-header-lower-content">
+														<span class="header3__searchMenu-header-lower-content-tag">Очки</span>
+														<span class="header3__searchMenu-header-lower-content-tag">Черный топ</span>
+														<span class="header3__searchMenu-header-lower-content-tag">Кожаные сумки</span>
+												</div>
+										</div>
+
+								</div>
+								<!--								<div class="header3__searchMenu-content">-->
+								<!--										<div class="header3__searchMenu-content-item">-->
+								<!--												<img loading="lazy" class="header3__searchMenu-content-item-img"-->
+								<!--														 data-src="component/header3/img/foundProduct.jpg" alt="product">-->
+								<!--												<div class="header3__searchMenu-content-item-title">Рубашка из льняной смеси</div>-->
+								<!--												<div class="header3__searchMenu-content-item-priceWrapper">-->
+								<!--														<div class="header3__searchMenu-content-item-priceWrapper-newPrice">3 000 ₽</div>-->
+								<!--														<div class="header3__searchMenu-content-item-priceWrapper-oldPrice">5 000 ₽</div>-->
+								<!--												</div>-->
+								<!--										</div>-->
+								<!--								</div>-->
+						</div>
+
+						<!-- Search mobile menu <= 991px -->
+						<div class="header3__searchMenuMobile header3__searchMenuMobile-hidden">
+								<div class="loader loader__hidden">
+										<div class="loader__item"></div>
+								</div>
+								<div class="container">
+										<div class="header3__searchMenuMobile-wrapper-content">
+
+												<!-- Header -->
+												<div class="header3__searchMenuMobile-wrapper-content-header">
+														<div class="header3__searchMenuMobile-wrapper-content-header-title">Поиск по магазину</div>
+														<img class="b-lazy header3__searchMenuMobile-wrapper-content-header-closeIcon"
+																 data-src="component/header3/img/close.svg" alt="close">
+												</div>
+
+												<!-- Searchbar -->
+												<div class="header3__searchMenuMobile-wrapper-content-searchBar">
+														<form>
+																<input class="header3__searchMenuMobile-wrapper-content-searchBar-input" type="text"
+																			 placeholder="Введите название товара">
+																<button class="header3__searchMenuMobile-wrapper-content-searchBar-button"
+																				type="submit">
+																		<img class="b-lazy header3__searchMenuMobile-wrapper-content-searchBar-button-icon"
+																				 data-src="component/header3/img/search.svg" alt="search">
+																</button>
+														</form>
+												</div>
+
+												<!-- Tags section -->
+												<div class="header3__searchMenuMobile-wrapper-content-tagSection">
+														<div class="header3__searchMenuMobile-wrapper-content-tagSection-title">
+																Популярные запросы:
+														</div>
+														<div class="header3__searchMenuMobile-wrapper-content-tagSection-content">
+																<span class="header3__searchMenuMobile-wrapper-content-tagSection-content-tag">Очки</span>
+																<span class="header3__searchMenuMobile-wrapper-content-tagSection-content-tag">Черный топ</span>
+																<span class="header3__searchMenuMobile-wrapper-content-tagSection-content-tag">Кожаные сумки</span>
+														</div>
+												</div>
+
+												<!-- Found products -->
+												<div class="header3__searchMenuMobile-wrapper-content-foundProducts">
+
+												</div>
+										</div>
+								</div>
+
+						</div>
+				</div>
+
+				<!-- Header dropdown container -->
+				<div class="header3__dropdownMenu hidden">
+
+						<!-- 1) CATALOG -->
+						<div data-dropdown-category="catalog" class="header3__dropdownMenu-content hidden">
+								<div class="container">
+										<div class="row justify-content-between">
+												<!-- Categories -->
+												<div class="col-8 col-xl-7 header3__dropdownMenu-content-categories">
+
+														<!-- Categories item -->
+														<div class="header3__dropdownMenu-content-categories-item">
+																<div class="header3__dropdownMenu-content-categories-item-title">Очки</div>
+																<ul class="header3__dropdownMenu-content-categories-item-ul">
+																		<li class="header3__dropdownMenu-content-categories-item-ul-li">
+																				<a href="#" class="header3__dropdownMenu-content-categories-item-ul-li-a">
+																						Новинки
+																				</a>
+																		</li>
+																		<li class="header3__dropdownMenu-content-categories-item-ul-li">
+																				<a href="#" class="header3__dropdownMenu-content-categories-item-ul-li-a">
+																						Поларойд
+																				</a>
+																		</li>
+																		<li class="header3__dropdownMenu-content-categories-item-ul-li">
+																				<a href="#" class="header3__dropdownMenu-content-categories-item-ul-li-a">
+																						Бабочка
+																				</a>
+																		</li>
+																		<li class="header3__dropdownMenu-content-categories-item-ul-li">
+																				<a href="#"
+																					 class="header3__dropdownMenu-content-categories-item-ul-li-a">
+																						Пилот
+																				</a>
+																		</li>
+																</ul>
+														</div>
+
+														<!-- Categories item -->
+														<div class="header3__dropdownMenu-content-categories-item">
+																<div class="header3__dropdownMenu-content-categories-item-title">Сумки</div>
+																<ul class="header3__dropdownMenu-content-categories-item-ul">
+																		<li class="header3__dropdownMenu-content-categories-item-ul-li">
+																				<a href="#" class="header3__dropdownMenu-content-categories-item-ul-li-a">
+																						Кожанные
+																				</a>
+																		</li>
+																		<li class="header3__dropdownMenu-content-categories-item-ul-li">
+																				<a href="#" class="header3__dropdownMenu-content-categories-item-ul-li-a">
+																						Эко кожа
+																				</a>
+																		</li>
+																		<li class="header3__dropdownMenu-content-categories-item-ul-li">
+																				<a href="#" class="header3__dropdownMenu-content-categories-item-ul-li-a">
+																						Тканевые
+																				</a>
+																		</li>
+																		<li class="header3__dropdownMenu-content-categories-item-ul-li">
+																				<a href="#" class="header3__dropdownMenu-content-categories-item-ul-li-a">
+																						Формат А4
+																				</a>
+																		</li>
+																</ul>
+														</div>
+
+														<!-- Categories item -->
+														<div class="header3__dropdownMenu-content-categories-item">
+																<div class="header3__dropdownMenu-content-categories-item-title">Обувь</div>
+																<ul class="header3__dropdownMenu-content-categories-item-ul">
+																		<li class="header3__dropdownMenu-content-categories-item-ul-li">
+																				<a href="#" class="header3__dropdownMenu-content-categories-item-ul-li-a">
+																						Летние
+																				</a>
+																		</li>
+																		<li class="header3__dropdownMenu-content-categories-item-ul-li">
+																				<a href="#" class="header3__dropdownMenu-content-categories-item-ul-li-a">
+																						Демесезон
+																				</a>
+																		</li>
+																		<li class="header3__dropdownMenu-content-categories-item-ul-li">
+																				<a href="#" class="header3__dropdownMenu-content-categories-item-ul-li-a">
+																						Зимние
+																				</a>
+																		</li>
+																		<li class="header3__dropdownMenu-content-categories-item-ul-li">
+																				<a href="#" class="header3__dropdownMenu-content-categories-item-ul-li-a">
+																						Стельки
+																				</a>
+																		</li>
+																</ul>
+														</div>
+
+														<!-- Categories item -->
+														<div class="header3__dropdownMenu-content-categories-item">
+																<div class="header3__dropdownMenu-content-categories-item-title">Топы</div>
+																<ul class="header3__dropdownMenu-content-categories-item-ul">
+																		<li class="header3__dropdownMenu-content-categories-item-ul-li">
+																				<a href="#" class="header3__dropdownMenu-content-categories-item-ul-li-a">
+																						С липким слоем
+																				</a>
+																		</li>
+																		<li class="header3__dropdownMenu-content-categories-item-ul-li">
+																				<a href="#" class="header3__dropdownMenu-content-categories-item-ul-li-a">
+																						Без липкого слоя
+																				</a>
+																		</li>
+																		<li class="header3__dropdownMenu-content-categories-item-ul-li">
+																				<a href="#" class="header3__dropdownMenu-content-categories-item-ul-li-a">
+																						Матовые
+																				</a>
+																		</li>
+																		<li class="header3__dropdownMenu-content-categories-item-ul-li">
+																				<a href="#" class="header3__dropdownMenu-content-categories-item-ul-li-a">
+																						С шиммером
+																				</a>
+																		</li>
+																</ul>
+														</div>
+
+														<!-- Categories item -->
+														<div class="header3__dropdownMenu-content-categories-item">
+																<div class="header3__dropdownMenu-content-categories-item-title">Костюмы</div>
+																<ul class="header3__dropdownMenu-content-categories-item-ul">
+																		<li class="header3__dropdownMenu-content-categories-item-ul-li">
+																				<a href="#" class="header3__dropdownMenu-content-categories-item-ul-li-a">
+																						Выходной
+																				</a>
+																		</li>
+																		<li class="header3__dropdownMenu-content-categories-item-ul-li">
+																				<a href="#" class="header3__dropdownMenu-content-categories-item-ul-li-a">
+																						Вечерний
+																				</a>
+																		</li>
+																		<li class="header3__dropdownMenu-content-categories-item-ul-li">
+																				<a href="#" class="header3__dropdownMenu-content-categories-item-ul-li-a">
+																						Свадебный
+																				</a>
+																		</li>
+																		<li class="header3__dropdownMenu-content-categories-item-ul-li">
+																				<a href="#" class="header3__dropdownMenu-content-categories-item-ul-li-a">
+																						Обычный
+																				</a>
+																		</li>
+																</ul>
+														</div>
+
+														<!-- Categories item -->
+														<div class="header3__dropdownMenu-content-categories-item">
+																<div class="header3__dropdownMenu-content-categories-item-title">База</div>
+																<ul class="header3__dropdownMenu-content-categories-item-ul">
+																		<li class="header3__dropdownMenu-content-categories-item-ul-li">
+																				<a href="#" class="header3__dropdownMenu-content-categories-item-ul-li-a">
+																						Новинки
+																				</a>
+																		</li>
+																		<li class="header3__dropdownMenu-content-categories-item-ul-li">
+																				<a href="#" class="header3__dropdownMenu-content-categories-item-ul-li-a">
+																						Поларойд
+																				</a>
+																		</li>
+																		<li class="header3__dropdownMenu-content-categories-item-ul-li">
+																				<a href="#" class="header3__dropdownMenu-content-categories-item-ul-li-a">
+																						Бабочка
+																				</a>
+																		</li>
+																		<li class="header3__dropdownMenu-content-categories-item-ul-li">
+																				<a href="#" class="header3__dropdownMenu-content-categories-item-ul-li-a">
+																						Пилот
+																				</a>
+																		</li>
+																</ul>
+														</div>
+
+														<!-- Categories item -->
+														<div class="header3__dropdownMenu-content-categories-item">
+																<div class="header3__dropdownMenu-content-categories-item-title">Шапки</div>
+																<ul class="header3__dropdownMenu-content-categories-item-ul">
+																		<li class="header3__dropdownMenu-content-categories-item-ul-li">
+																				<a href="#" class="header3__dropdownMenu-content-categories-item-ul-li-a">
+																						Летние
+																				</a>
+																		</li>
+																		<li class="header3__dropdownMenu-content-categories-item-ul-li">
+																				<a href="#" class="header3__dropdownMenu-content-categories-item-ul-li-a">
+																						Демесезон
+																				</a>
+																		</li>
+																		<li class="header3__dropdownMenu-content-categories-item-ul-li">
+																				<a href="#" class="header3__dropdownMenu-content-categories-item-ul-li-a">
+																						Зимние
+																				</a>
+																		</li>
+																		<li class="header3__dropdownMenu-content-categories-item-ul-li">
+																				<a href="#" class="header3__dropdownMenu-content-categories-item-ul-li-a">
+																						Стельки
+																				</a>
+																		</li>
+																</ul>
+														</div>
+
+														<!-- Categories item -->
+														<div class="header3__dropdownMenu-content-categories-item">
+																<div class="header3__dropdownMenu-content-categories-item-title">Платья</div>
+																<ul class="header3__dropdownMenu-content-categories-item-ul">
+																		<li class="header3__dropdownMenu-content-categories-item-ul-li">
+																				<a href="#" class="header3__dropdownMenu-content-categories-item-ul-li-a">
+																						С липким слоем
+																				</a>
+																		</li>
+																		<li class="header3__dropdownMenu-content-categories-item-ul-li">
+																				<a href="#" class="header3__dropdownMenu-content-categories-item-ul-li-a">
+																						Без липкого слоя
+																				</a>
+																		</li>
+																</ul>
+														</div>
+
+												</div>
+
+												<!-- Image -->
+												<div class="col-4 header3__dropdownMenu-content-imageWrapper">
+														<img loading="lazy" data-src="component/header3/img/dropdown/1.jpg" alt="products"
+																 class="b-lazy header3__dropdownMenu-content-imageWrapper-img">
+												</div>
+										</div>
+								</div>
+						</div>
+
+						<!-- 2) NEW ITEMS -->
+						<div data-dropdown-category="newItems" class="header3__dropdownMenu-content hidden">
+								<div class="container">
+										<div class="row justify-content-between">
+												<!-- Categories -->
+												<div class="col-8 col-xl-7 header3__dropdownMenu-content-categories">
+
+														<!-- Categories item -->
+														<div class="header3__dropdownMenu-content-categories-item">
+																<div class="header3__dropdownMenu-content-categories-item-title">Очки</div>
+																<ul class="header3__dropdownMenu-content-categories-item-ul">
+																		<li class="header3__dropdownMenu-content-categories-item-ul-li">
+																				<a href="#" class="header3__dropdownMenu-content-categories-item-ul-li-a">
+																						Новинки
+																				</a>
+																		</li>
+																		<li class="header3__dropdownMenu-content-categories-item-ul-li">
+																				<a href="#" class="header3__dropdownMenu-content-categories-item-ul-li-a">
+																						Поларойд
+																				</a>
+																		</li>
+																		<li class="header3__dropdownMenu-content-categories-item-ul-li">
+																				<a href="#" class="header3__dropdownMenu-content-categories-item-ul-li-a">
+																						Бабочка
+																				</a>
+																		</li>
+																		<li class="header3__dropdownMenu-content-categories-item-ul-li">
+																				<a href="#"
+																					 class="header3__dropdownMenu-content-categories-item-ul-li-a">
+																						Пилот
+																				</a>
+																		</li>
+																</ul>
+														</div>
+
+														<!-- Categories item -->
+														<div class="header3__dropdownMenu-content-categories-item">
+																<div class="header3__dropdownMenu-content-categories-item-title">Сумки</div>
+																<ul class="header3__dropdownMenu-content-categories-item-ul">
+																		<li class="header3__dropdownMenu-content-categories-item-ul-li">
+																				<a href="#" class="header3__dropdownMenu-content-categories-item-ul-li-a">
+																						Кожанные
+																				</a>
+																		</li>
+																		<li class="header3__dropdownMenu-content-categories-item-ul-li">
+																				<a href="#" class="header3__dropdownMenu-content-categories-item-ul-li-a">
+																						Эко кожа
+																				</a>
+																		</li>
+																		<li class="header3__dropdownMenu-content-categories-item-ul-li">
+																				<a href="#" class="header3__dropdownMenu-content-categories-item-ul-li-a">
+																						Тканевые
+																				</a>
+																		</li>
+																		<li class="header3__dropdownMenu-content-categories-item-ul-li">
+																				<a href="#" class="header3__dropdownMenu-content-categories-item-ul-li-a">
+																						Формат А4
+																				</a>
+																		</li>
+																</ul>
+														</div>
+
+														<!-- Categories item -->
+														<div class="header3__dropdownMenu-content-categories-item">
+																<div class="header3__dropdownMenu-content-categories-item-title">Обувь</div>
+																<ul class="header3__dropdownMenu-content-categories-item-ul">
+																		<li class="header3__dropdownMenu-content-categories-item-ul-li">
+																				<a href="#" class="header3__dropdownMenu-content-categories-item-ul-li-a">
+																						Летние
+																				</a>
+																		</li>
+																		<li class="header3__dropdownMenu-content-categories-item-ul-li">
+																				<a href="#" class="header3__dropdownMenu-content-categories-item-ul-li-a">
+																						Демесезон
+																				</a>
+																		</li>
+																		<li class="header3__dropdownMenu-content-categories-item-ul-li">
+																				<a href="#" class="header3__dropdownMenu-content-categories-item-ul-li-a">
+																						Зимние
+																				</a>
+																		</li>
+																		<li class="header3__dropdownMenu-content-categories-item-ul-li">
+																				<a href="#" class="header3__dropdownMenu-content-categories-item-ul-li-a">
+																						Стельки
+																				</a>
+																		</li>
+																</ul>
+														</div>
+
+														<!-- Categories item -->
+														<div class="header3__dropdownMenu-content-categories-item">
+																<div class="header3__dropdownMenu-content-categories-item-title">Топы</div>
+																<ul class="header3__dropdownMenu-content-categories-item-ul">
+																		<li class="header3__dropdownMenu-content-categories-item-ul-li">
+																				<a href="#" class="header3__dropdownMenu-content-categories-item-ul-li-a">
+																						С липким слоем
+																				</a>
+																		</li>
+																		<li class="header3__dropdownMenu-content-categories-item-ul-li">
+																				<a href="#" class="header3__dropdownMenu-content-categories-item-ul-li-a">
+																						Без липкого слоя
+																				</a>
+																		</li>
+																		<li class="header3__dropdownMenu-content-categories-item-ul-li">
+																				<a href="#" class="header3__dropdownMenu-content-categories-item-ul-li-a">
+																						Матовые
+																				</a>
+																		</li>
+																		<li class="header3__dropdownMenu-content-categories-item-ul-li">
+																				<a href="#" class="header3__dropdownMenu-content-categories-item-ul-li-a">
+																						С шиммером
+																				</a>
+																		</li>
+																</ul>
+														</div>
+
+														<!-- Categories item -->
+														<div class="header3__dropdownMenu-content-categories-item">
+																<div class="header3__dropdownMenu-content-categories-item-title">Костюмы</div>
+																<ul class="header3__dropdownMenu-content-categories-item-ul">
+																		<li class="header3__dropdownMenu-content-categories-item-ul-li">
+																				<a href="#" class="header3__dropdownMenu-content-categories-item-ul-li-a">
+																						Выходной
+																				</a>
+																		</li>
+																		<li class="header3__dropdownMenu-content-categories-item-ul-li">
+																				<a href="#" class="header3__dropdownMenu-content-categories-item-ul-li-a">
+																						Вечерний
+																				</a>
+																		</li>
+																		<li class="header3__dropdownMenu-content-categories-item-ul-li">
+																				<a href="#" class="header3__dropdownMenu-content-categories-item-ul-li-a">
+																						Свадебный
+																				</a>
+																		</li>
+																		<li class="header3__dropdownMenu-content-categories-item-ul-li">
+																				<a href="#" class="header3__dropdownMenu-content-categories-item-ul-li-a">
+																						Обычный
+																				</a>
+																		</li>
+																</ul>
+														</div>
+
+														<!-- Categories item -->
+														<div class="header3__dropdownMenu-content-categories-item">
+																<div class="header3__dropdownMenu-content-categories-item-title">База</div>
+																<ul class="header3__dropdownMenu-content-categories-item-ul">
+																		<li class="header3__dropdownMenu-content-categories-item-ul-li">
+																				<a href="#" class="header3__dropdownMenu-content-categories-item-ul-li-a">
+																						Новинки
+																				</a>
+																		</li>
+																		<li class="header3__dropdownMenu-content-categories-item-ul-li">
+																				<a href="#" class="header3__dropdownMenu-content-categories-item-ul-li-a">
+																						Поларойд
+																				</a>
+																		</li>
+																		<li class="header3__dropdownMenu-content-categories-item-ul-li">
+																				<a href="#" class="header3__dropdownMenu-content-categories-item-ul-li-a">
+																						Бабочка
+																				</a>
+																		</li>
+																		<li class="header3__dropdownMenu-content-categories-item-ul-li">
+																				<a href="#" class="header3__dropdownMenu-content-categories-item-ul-li-a">
+																						Пилот
+																				</a>
+																		</li>
+																</ul>
+														</div>
+
+														<!-- Categories item -->
+														<div class="header3__dropdownMenu-content-categories-item">
+																<div class="header3__dropdownMenu-content-categories-item-title">Шапки</div>
+																<ul class="header3__dropdownMenu-content-categories-item-ul">
+																		<li class="header3__dropdownMenu-content-categories-item-ul-li">
+																				<a href="#" class="header3__dropdownMenu-content-categories-item-ul-li-a">
+																						Летние
+																				</a>
+																		</li>
+																		<li class="header3__dropdownMenu-content-categories-item-ul-li">
+																				<a href="#" class="header3__dropdownMenu-content-categories-item-ul-li-a">
+																						Демесезон
+																				</a>
+																		</li>
+																		<li class="header3__dropdownMenu-content-categories-item-ul-li">
+																				<a href="#" class="header3__dropdownMenu-content-categories-item-ul-li-a">
+																						Зимние
+																				</a>
+																		</li>
+																		<li class="header3__dropdownMenu-content-categories-item-ul-li">
+																				<a href="#" class="header3__dropdownMenu-content-categories-item-ul-li-a">
+																						Стельки
+																				</a>
+																		</li>
+																</ul>
+														</div>
+
+														<!-- Categories item -->
+														<div class="header3__dropdownMenu-content-categories-item">
+																<div class="header3__dropdownMenu-content-categories-item-title">Платья</div>
+																<ul class="header3__dropdownMenu-content-categories-item-ul">
+																		<li class="header3__dropdownMenu-content-categories-item-ul-li">
+																				<a href="#" class="header3__dropdownMenu-content-categories-item-ul-li-a">
+																						С липким слоем
+																				</a>
+																		</li>
+																		<li class="header3__dropdownMenu-content-categories-item-ul-li">
+																				<a href="#" class="header3__dropdownMenu-content-categories-item-ul-li-a">
+																						Без липкого слоя
+																				</a>
+																		</li>
+																</ul>
+														</div>
+
+												</div>
+
+												<!-- Image -->
+												<div class="col-4 header3__dropdownMenu-content-imageWrapper">
+														<img loading="lazy" data-src="component/header3/img/dropdown/2.jpg" alt="products"
+																 class="b-lazy header3__dropdownMenu-content-imageWrapper-img">
+												</div>
+										</div>
+								</div>
+						</div>
+
+						<!-- 3) BEST SELLERS -->
+						<div data-dropdown-category="bestSellers" class="header3__dropdownMenu-content hidden">
+								<div class="container">
+										<div class="row justify-content-between">
+												<!-- Categories -->
+												<div class="col-8 col-xl-7 header3__dropdownMenu-content-categories">
+
+														<!-- Categories item -->
+														<div class="header3__dropdownMenu-content-categories-item">
+																<div class="header3__dropdownMenu-content-categories-item-title">Очки</div>
+																<ul class="header3__dropdownMenu-content-categories-item-ul">
+																		<li class="header3__dropdownMenu-content-categories-item-ul-li">
+																				<a href="#" class="header3__dropdownMenu-content-categories-item-ul-li-a">
+																						Новинки
+																				</a>
+																		</li>
+																		<li class="header3__dropdownMenu-content-categories-item-ul-li">
+																				<a href="#" class="header3__dropdownMenu-content-categories-item-ul-li-a">
+																						Поларойд
+																				</a>
+																		</li>
+																		<li class="header3__dropdownMenu-content-categories-item-ul-li">
+																				<a href="#" class="header3__dropdownMenu-content-categories-item-ul-li-a">
+																						Бабочка
+																				</a>
+																		</li>
+																		<li class="header3__dropdownMenu-content-categories-item-ul-li">
+																				<a href="#"
+																					 class="header3__dropdownMenu-content-categories-item-ul-li-a">
+																						Пилот
+																				</a>
+																		</li>
+																</ul>
+														</div>
+
+														<!-- Categories item -->
+														<div class="header3__dropdownMenu-content-categories-item">
+																<div class="header3__dropdownMenu-content-categories-item-title">Сумки</div>
+																<ul class="header3__dropdownMenu-content-categories-item-ul">
+																		<li class="header3__dropdownMenu-content-categories-item-ul-li">
+																				<a href="#" class="header3__dropdownMenu-content-categories-item-ul-li-a">
+																						Кожанные
+																				</a>
+																		</li>
+																		<li class="header3__dropdownMenu-content-categories-item-ul-li">
+																				<a href="#" class="header3__dropdownMenu-content-categories-item-ul-li-a">
+																						Эко кожа
+																				</a>
+																		</li>
+																		<li class="header3__dropdownMenu-content-categories-item-ul-li">
+																				<a href="#" class="header3__dropdownMenu-content-categories-item-ul-li-a">
+																						Тканевые
+																				</a>
+																		</li>
+																		<li class="header3__dropdownMenu-content-categories-item-ul-li">
+																				<a href="#" class="header3__dropdownMenu-content-categories-item-ul-li-a">
+																						Формат А4
+																				</a>
+																		</li>
+																</ul>
+														</div>
+
+														<!-- Categories item -->
+														<div class="header3__dropdownMenu-content-categories-item">
+																<div class="header3__dropdownMenu-content-categories-item-title">Обувь</div>
+																<ul class="header3__dropdownMenu-content-categories-item-ul">
+																		<li class="header3__dropdownMenu-content-categories-item-ul-li">
+																				<a href="#" class="header3__dropdownMenu-content-categories-item-ul-li-a">
+																						Летние
+																				</a>
+																		</li>
+																		<li class="header3__dropdownMenu-content-categories-item-ul-li">
+																				<a href="#" class="header3__dropdownMenu-content-categories-item-ul-li-a">
+																						Демесезон
+																				</a>
+																		</li>
+																		<li class="header3__dropdownMenu-content-categories-item-ul-li">
+																				<a href="#" class="header3__dropdownMenu-content-categories-item-ul-li-a">
+																						Зимние
+																				</a>
+																		</li>
+																		<li class="header3__dropdownMenu-content-categories-item-ul-li">
+																				<a href="#" class="header3__dropdownMenu-content-categories-item-ul-li-a">
+																						Стельки
+																				</a>
+																		</li>
+																</ul>
+														</div>
+
+														<!-- Categories item -->
+														<div class="header3__dropdownMenu-content-categories-item">
+																<div class="header3__dropdownMenu-content-categories-item-title">Топы</div>
+																<ul class="header3__dropdownMenu-content-categories-item-ul">
+																		<li class="header3__dropdownMenu-content-categories-item-ul-li">
+																				<a href="#" class="header3__dropdownMenu-content-categories-item-ul-li-a">
+																						С липким слоем
+																				</a>
+																		</li>
+																		<li class="header3__dropdownMenu-content-categories-item-ul-li">
+																				<a href="#" class="header3__dropdownMenu-content-categories-item-ul-li-a">
+																						Без липкого слоя
+																				</a>
+																		</li>
+																		<li class="header3__dropdownMenu-content-categories-item-ul-li">
+																				<a href="#" class="header3__dropdownMenu-content-categories-item-ul-li-a">
+																						Матовые
+																				</a>
+																		</li>
+																		<li class="header3__dropdownMenu-content-categories-item-ul-li">
+																				<a href="#" class="header3__dropdownMenu-content-categories-item-ul-li-a">
+																						С шиммером
+																				</a>
+																		</li>
+																</ul>
+														</div>
+
+														<!-- Categories item -->
+														<div class="header3__dropdownMenu-content-categories-item">
+																<div class="header3__dropdownMenu-content-categories-item-title">Костюмы</div>
+																<ul class="header3__dropdownMenu-content-categories-item-ul">
+																		<li class="header3__dropdownMenu-content-categories-item-ul-li">
+																				<a href="#" class="header3__dropdownMenu-content-categories-item-ul-li-a">
+																						Выходной
+																				</a>
+																		</li>
+																		<li class="header3__dropdownMenu-content-categories-item-ul-li">
+																				<a href="#" class="header3__dropdownMenu-content-categories-item-ul-li-a">
+																						Вечерний
+																				</a>
+																		</li>
+																		<li class="header3__dropdownMenu-content-categories-item-ul-li">
+																				<a href="#" class="header3__dropdownMenu-content-categories-item-ul-li-a">
+																						Свадебный
+																				</a>
+																		</li>
+																		<li class="header3__dropdownMenu-content-categories-item-ul-li">
+																				<a href="#" class="header3__dropdownMenu-content-categories-item-ul-li-a">
+																						Обычный
+																				</a>
+																		</li>
+																</ul>
+														</div>
+
+														<!-- Categories item -->
+														<div class="header3__dropdownMenu-content-categories-item">
+																<div class="header3__dropdownMenu-content-categories-item-title">База</div>
+																<ul class="header3__dropdownMenu-content-categories-item-ul">
+																		<li class="header3__dropdownMenu-content-categories-item-ul-li">
+																				<a href="#" class="header3__dropdownMenu-content-categories-item-ul-li-a">
+																						Новинки
+																				</a>
+																		</li>
+																		<li class="header3__dropdownMenu-content-categories-item-ul-li">
+																				<a href="#" class="header3__dropdownMenu-content-categories-item-ul-li-a">
+																						Поларойд
+																				</a>
+																		</li>
+																		<li class="header3__dropdownMenu-content-categories-item-ul-li">
+																				<a href="#" class="header3__dropdownMenu-content-categories-item-ul-li-a">
+																						Бабочка
+																				</a>
+																		</li>
+																		<li class="header3__dropdownMenu-content-categories-item-ul-li">
+																				<a href="#" class="header3__dropdownMenu-content-categories-item-ul-li-a">
+																						Пилот
+																				</a>
+																		</li>
+																</ul>
+														</div>
+
+														<!-- Categories item -->
+														<div class="header3__dropdownMenu-content-categories-item">
+																<div class="header3__dropdownMenu-content-categories-item-title">Шапки</div>
+																<ul class="header3__dropdownMenu-content-categories-item-ul">
+																		<li class="header3__dropdownMenu-content-categories-item-ul-li">
+																				<a href="#" class="header3__dropdownMenu-content-categories-item-ul-li-a">
+																						Летние
+																				</a>
+																		</li>
+																		<li class="header3__dropdownMenu-content-categories-item-ul-li">
+																				<a href="#" class="header3__dropdownMenu-content-categories-item-ul-li-a">
+																						Демесезон
+																				</a>
+																		</li>
+																		<li class="header3__dropdownMenu-content-categories-item-ul-li">
+																				<a href="#" class="header3__dropdownMenu-content-categories-item-ul-li-a">
+																						Зимние
+																				</a>
+																		</li>
+																		<li class="header3__dropdownMenu-content-categories-item-ul-li">
+																				<a href="#" class="header3__dropdownMenu-content-categories-item-ul-li-a">
+																						Стельки
+																				</a>
+																		</li>
+																</ul>
+														</div>
+
+														<!-- Categories item -->
+														<div class="header3__dropdownMenu-content-categories-item">
+																<div class="header3__dropdownMenu-content-categories-item-title">Платья</div>
+																<ul class="header3__dropdownMenu-content-categories-item-ul">
+																		<li class="header3__dropdownMenu-content-categories-item-ul-li">
+																				<a href="#" class="header3__dropdownMenu-content-categories-item-ul-li-a">
+																						С липким слоем
+																				</a>
+																		</li>
+																		<li class="header3__dropdownMenu-content-categories-item-ul-li">
+																				<a href="#" class="header3__dropdownMenu-content-categories-item-ul-li-a">
+																						Без липкого слоя
+																				</a>
+																		</li>
+																</ul>
+														</div>
+
+												</div>
+
+												<!-- Image -->
+												<div class="col-4 header3__dropdownMenu-content-imageWrapper">
+														<img loading="lazy" data-src="component/header3/img/dropdown/1.jpg" alt="products"
+																 class="b-lazy header3__dropdownMenu-content-imageWrapper-img">
+												</div>
+										</div>
+								</div>
+						</div>
+
+						<!-- 4) ABOUT BRAND -->
+						<div data-dropdown-category="aboutBrand" class="header3__dropdownMenu-content hidden">
+								<div class="container">
+										<div class="row justify-content-between">
+												<!-- Categories -->
+												<div class="col-8 col-xl-7 header3__dropdownMenu-content-categories">
+
+														<!-- Categories item -->
+														<div class="header3__dropdownMenu-content-categories-item">
+																<div class="header3__dropdownMenu-content-categories-item-title">Очки</div>
+																<ul class="header3__dropdownMenu-content-categories-item-ul">
+																		<li class="header3__dropdownMenu-content-categories-item-ul-li">
+																				<a href="#" class="header3__dropdownMenu-content-categories-item-ul-li-a">
+																						Новинки
+																				</a>
+																		</li>
+																		<li class="header3__dropdownMenu-content-categories-item-ul-li">
+																				<a href="#" class="header3__dropdownMenu-content-categories-item-ul-li-a">
+																						Поларойд
+																				</a>
+																		</li>
+																		<li class="header3__dropdownMenu-content-categories-item-ul-li">
+																				<a href="#" class="header3__dropdownMenu-content-categories-item-ul-li-a">
+																						Бабочка
+																				</a>
+																		</li>
+																		<li class="header3__dropdownMenu-content-categories-item-ul-li">
+																				<a href="#"
+																					 class="header3__dropdownMenu-content-categories-item-ul-li-a">
+																						Пилот
+																				</a>
+																		</li>
+																</ul>
+														</div>
+
+														<!-- Categories item -->
+														<div class="header3__dropdownMenu-content-categories-item">
+																<div class="header3__dropdownMenu-content-categories-item-title">Сумки</div>
+																<ul class="header3__dropdownMenu-content-categories-item-ul">
+																		<li class="header3__dropdownMenu-content-categories-item-ul-li">
+																				<a href="#" class="header3__dropdownMenu-content-categories-item-ul-li-a">
+																						Кожанные
+																				</a>
+																		</li>
+																		<li class="header3__dropdownMenu-content-categories-item-ul-li">
+																				<a href="#" class="header3__dropdownMenu-content-categories-item-ul-li-a">
+																						Эко кожа
+																				</a>
+																		</li>
+																		<li class="header3__dropdownMenu-content-categories-item-ul-li">
+																				<a href="#" class="header3__dropdownMenu-content-categories-item-ul-li-a">
+																						Тканевые
+																				</a>
+																		</li>
+																		<li class="header3__dropdownMenu-content-categories-item-ul-li">
+																				<a href="#" class="header3__dropdownMenu-content-categories-item-ul-li-a">
+																						Формат А4
+																				</a>
+																		</li>
+																</ul>
+														</div>
+
+														<!-- Categories item -->
+														<div class="header3__dropdownMenu-content-categories-item">
+																<div class="header3__dropdownMenu-content-categories-item-title">Обувь</div>
+																<ul class="header3__dropdownMenu-content-categories-item-ul">
+																		<li class="header3__dropdownMenu-content-categories-item-ul-li">
+																				<a href="#" class="header3__dropdownMenu-content-categories-item-ul-li-a">
+																						Летние
+																				</a>
+																		</li>
+																		<li class="header3__dropdownMenu-content-categories-item-ul-li">
+																				<a href="#" class="header3__dropdownMenu-content-categories-item-ul-li-a">
+																						Демесезон
+																				</a>
+																		</li>
+																		<li class="header3__dropdownMenu-content-categories-item-ul-li">
+																				<a href="#" class="header3__dropdownMenu-content-categories-item-ul-li-a">
+																						Зимние
+																				</a>
+																		</li>
+																		<li class="header3__dropdownMenu-content-categories-item-ul-li">
+																				<a href="#" class="header3__dropdownMenu-content-categories-item-ul-li-a">
+																						Стельки
+																				</a>
+																		</li>
+																</ul>
+														</div>
+
+														<!-- Categories item -->
+														<div class="header3__dropdownMenu-content-categories-item">
+																<div class="header3__dropdownMenu-content-categories-item-title">Топы</div>
+																<ul class="header3__dropdownMenu-content-categories-item-ul">
+																		<li class="header3__dropdownMenu-content-categories-item-ul-li">
+																				<a href="#" class="header3__dropdownMenu-content-categories-item-ul-li-a">
+																						С липким слоем
+																				</a>
+																		</li>
+																		<li class="header3__dropdownMenu-content-categories-item-ul-li">
+																				<a href="#" class="header3__dropdownMenu-content-categories-item-ul-li-a">
+																						Без липкого слоя
+																				</a>
+																		</li>
+																		<li class="header3__dropdownMenu-content-categories-item-ul-li">
+																				<a href="#" class="header3__dropdownMenu-content-categories-item-ul-li-a">
+																						Матовые
+																				</a>
+																		</li>
+																		<li class="header3__dropdownMenu-content-categories-item-ul-li">
+																				<a href="#" class="header3__dropdownMenu-content-categories-item-ul-li-a">
+																						С шиммером
+																				</a>
+																		</li>
+																</ul>
+														</div>
+
+														<!-- Categories item -->
+														<div class="header3__dropdownMenu-content-categories-item">
+																<div class="header3__dropdownMenu-content-categories-item-title">Костюмы</div>
+																<ul class="header3__dropdownMenu-content-categories-item-ul">
+																		<li class="header3__dropdownMenu-content-categories-item-ul-li">
+																				<a href="#" class="header3__dropdownMenu-content-categories-item-ul-li-a">
+																						Выходной
+																				</a>
+																		</li>
+																		<li class="header3__dropdownMenu-content-categories-item-ul-li">
+																				<a href="#" class="header3__dropdownMenu-content-categories-item-ul-li-a">
+																						Вечерний
+																				</a>
+																		</li>
+																		<li class="header3__dropdownMenu-content-categories-item-ul-li">
+																				<a href="#" class="header3__dropdownMenu-content-categories-item-ul-li-a">
+																						Свадебный
+																				</a>
+																		</li>
+																		<li class="header3__dropdownMenu-content-categories-item-ul-li">
+																				<a href="#" class="header3__dropdownMenu-content-categories-item-ul-li-a">
+																						Обычный
+																				</a>
+																		</li>
+																</ul>
+														</div>
+
+														<!-- Categories item -->
+														<div class="header3__dropdownMenu-content-categories-item">
+																<div class="header3__dropdownMenu-content-categories-item-title">База</div>
+																<ul class="header3__dropdownMenu-content-categories-item-ul">
+																		<li class="header3__dropdownMenu-content-categories-item-ul-li">
+																				<a href="#" class="header3__dropdownMenu-content-categories-item-ul-li-a">
+																						Новинки
+																				</a>
+																		</li>
+																		<li class="header3__dropdownMenu-content-categories-item-ul-li">
+																				<a href="#" class="header3__dropdownMenu-content-categories-item-ul-li-a">
+																						Поларойд
+																				</a>
+																		</li>
+																		<li class="header3__dropdownMenu-content-categories-item-ul-li">
+																				<a href="#" class="header3__dropdownMenu-content-categories-item-ul-li-a">
+																						Бабочка
+																				</a>
+																		</li>
+																		<li class="header3__dropdownMenu-content-categories-item-ul-li">
+																				<a href="#" class="header3__dropdownMenu-content-categories-item-ul-li-a">
+																						Пилот
+																				</a>
+																		</li>
+																</ul>
+														</div>
+
+														<!-- Categories item -->
+														<div class="header3__dropdownMenu-content-categories-item">
+																<div class="header3__dropdownMenu-content-categories-item-title">Шапки</div>
+																<ul class="header3__dropdownMenu-content-categories-item-ul">
+																		<li class="header3__dropdownMenu-content-categories-item-ul-li">
+																				<a href="#" class="header3__dropdownMenu-content-categories-item-ul-li-a">
+																						Летние
+																				</a>
+																		</li>
+																		<li class="header3__dropdownMenu-content-categories-item-ul-li">
+																				<a href="#" class="header3__dropdownMenu-content-categories-item-ul-li-a">
+																						Демесезон
+																				</a>
+																		</li>
+																		<li class="header3__dropdownMenu-content-categories-item-ul-li">
+																				<a href="#" class="header3__dropdownMenu-content-categories-item-ul-li-a">
+																						Зимние
+																				</a>
+																		</li>
+																		<li class="header3__dropdownMenu-content-categories-item-ul-li">
+																				<a href="#" class="header3__dropdownMenu-content-categories-item-ul-li-a">
+																						Стельки
+																				</a>
+																		</li>
+																</ul>
+														</div>
+
+														<!-- Categories item -->
+														<div class="header3__dropdownMenu-content-categories-item">
+																<div class="header3__dropdownMenu-content-categories-item-title">Платья</div>
+																<ul class="header3__dropdownMenu-content-categories-item-ul">
+																		<li class="header3__dropdownMenu-content-categories-item-ul-li">
+																				<a href="#" class="header3__dropdownMenu-content-categories-item-ul-li-a">
+																						С липким слоем
+																				</a>
+																		</li>
+																		<li class="header3__dropdownMenu-content-categories-item-ul-li">
+																				<a href="#" class="header3__dropdownMenu-content-categories-item-ul-li-a">
+																						Без липкого слоя
+																				</a>
+																		</li>
+																</ul>
+														</div>
+
+												</div>
+
+												<!-- Image -->
+												<div class="col-4 header3__dropdownMenu-content-imageWrapper">
+														<img loading="lazy" data-src="component/header3/img/dropdown/1.jpg" alt="products"
+																 class="b-lazy header3__dropdownMenu-content-imageWrapper-img">
+												</div>
+										</div>
+								</div>
+						</div>
+
+						<!-- 5) FOR CUSTOMERS -->
+						<div data-dropdown-category="forCustomers" class="header3__dropdownMenu-content hidden">
+								<div class="container">
+										<div class="row justify-content-between">
+												<!-- Categories -->
+												<div class="col-8 col-xl-7 header3__dropdownMenu-content-categories">
+
+														<!-- Categories item -->
+														<div class="header3__dropdownMenu-content-categories-item">
+																<div class="header3__dropdownMenu-content-categories-item-title">Очки</div>
+																<ul class="header3__dropdownMenu-content-categories-item-ul">
+																		<li class="header3__dropdownMenu-content-categories-item-ul-li">
+																				<a href="#" class="header3__dropdownMenu-content-categories-item-ul-li-a">
+																						Новинки
+																				</a>
+																		</li>
+																		<li class="header3__dropdownMenu-content-categories-item-ul-li">
+																				<a href="#" class="header3__dropdownMenu-content-categories-item-ul-li-a">
+																						Поларойд
+																				</a>
+																		</li>
+																		<li class="header3__dropdownMenu-content-categories-item-ul-li">
+																				<a href="#" class="header3__dropdownMenu-content-categories-item-ul-li-a">
+																						Бабочка
+																				</a>
+																		</li>
+																		<li class="header3__dropdownMenu-content-categories-item-ul-li">
+																				<a href="#"
+																					 class="header3__dropdownMenu-content-categories-item-ul-li-a">
+																						Пилот
+																				</a>
+																		</li>
+																</ul>
+														</div>
+
+														<!-- Categories item -->
+														<div class="header3__dropdownMenu-content-categories-item">
+																<div class="header3__dropdownMenu-content-categories-item-title">Сумки</div>
+																<ul class="header3__dropdownMenu-content-categories-item-ul">
+																		<li class="header3__dropdownMenu-content-categories-item-ul-li">
+																				<a href="#" class="header3__dropdownMenu-content-categories-item-ul-li-a">
+																						Кожанные
+																				</a>
+																		</li>
+																		<li class="header3__dropdownMenu-content-categories-item-ul-li">
+																				<a href="#" class="header3__dropdownMenu-content-categories-item-ul-li-a">
+																						Эко кожа
+																				</a>
+																		</li>
+																		<li class="header3__dropdownMenu-content-categories-item-ul-li">
+																				<a href="#" class="header3__dropdownMenu-content-categories-item-ul-li-a">
+																						Тканевые
+																				</a>
+																		</li>
+																		<li class="header3__dropdownMenu-content-categories-item-ul-li">
+																				<a href="#" class="header3__dropdownMenu-content-categories-item-ul-li-a">
+																						Формат А4
+																				</a>
+																		</li>
+																</ul>
+														</div>
+
+														<!-- Categories item -->
+														<div class="header3__dropdownMenu-content-categories-item">
+																<div class="header3__dropdownMenu-content-categories-item-title">Обувь</div>
+																<ul class="header3__dropdownMenu-content-categories-item-ul">
+																		<li class="header3__dropdownMenu-content-categories-item-ul-li">
+																				<a href="#" class="header3__dropdownMenu-content-categories-item-ul-li-a">
+																						Летние
+																				</a>
+																		</li>
+																		<li class="header3__dropdownMenu-content-categories-item-ul-li">
+																				<a href="#" class="header3__dropdownMenu-content-categories-item-ul-li-a">
+																						Демесезон
+																				</a>
+																		</li>
+																		<li class="header3__dropdownMenu-content-categories-item-ul-li">
+																				<a href="#" class="header3__dropdownMenu-content-categories-item-ul-li-a">
+																						Зимние
+																				</a>
+																		</li>
+																		<li class="header3__dropdownMenu-content-categories-item-ul-li">
+																				<a href="#" class="header3__dropdownMenu-content-categories-item-ul-li-a">
+																						Стельки
+																				</a>
+																		</li>
+																</ul>
+														</div>
+
+														<!-- Categories item -->
+														<div class="header3__dropdownMenu-content-categories-item">
+																<div class="header3__dropdownMenu-content-categories-item-title">Топы</div>
+																<ul class="header3__dropdownMenu-content-categories-item-ul">
+																		<li class="header3__dropdownMenu-content-categories-item-ul-li">
+																				<a href="#" class="header3__dropdownMenu-content-categories-item-ul-li-a">
+																						С липким слоем
+																				</a>
+																		</li>
+																		<li class="header3__dropdownMenu-content-categories-item-ul-li">
+																				<a href="#" class="header3__dropdownMenu-content-categories-item-ul-li-a">
+																						Без липкого слоя
+																				</a>
+																		</li>
+																		<li class="header3__dropdownMenu-content-categories-item-ul-li">
+																				<a href="#" class="header3__dropdownMenu-content-categories-item-ul-li-a">
+																						Матовые
+																				</a>
+																		</li>
+																		<li class="header3__dropdownMenu-content-categories-item-ul-li">
+																				<a href="#" class="header3__dropdownMenu-content-categories-item-ul-li-a">
+																						С шиммером
+																				</a>
+																		</li>
+																</ul>
+														</div>
+
+														<!-- Categories item -->
+														<div class="header3__dropdownMenu-content-categories-item">
+																<div class="header3__dropdownMenu-content-categories-item-title">Костюмы</div>
+																<ul class="header3__dropdownMenu-content-categories-item-ul">
+																		<li class="header3__dropdownMenu-content-categories-item-ul-li">
+																				<a href="#" class="header3__dropdownMenu-content-categories-item-ul-li-a">
+																						Выходной
+																				</a>
+																		</li>
+																		<li class="header3__dropdownMenu-content-categories-item-ul-li">
+																				<a href="#" class="header3__dropdownMenu-content-categories-item-ul-li-a">
+																						Вечерний
+																				</a>
+																		</li>
+																		<li class="header3__dropdownMenu-content-categories-item-ul-li">
+																				<a href="#" class="header3__dropdownMenu-content-categories-item-ul-li-a">
+																						Свадебный
+																				</a>
+																		</li>
+																		<li class="header3__dropdownMenu-content-categories-item-ul-li">
+																				<a href="#" class="header3__dropdownMenu-content-categories-item-ul-li-a">
+																						Обычный
+																				</a>
+																		</li>
+																</ul>
+														</div>
+
+														<!-- Categories item -->
+														<div class="header3__dropdownMenu-content-categories-item">
+																<div class="header3__dropdownMenu-content-categories-item-title">База</div>
+																<ul class="header3__dropdownMenu-content-categories-item-ul">
+																		<li class="header3__dropdownMenu-content-categories-item-ul-li">
+																				<a href="#" class="header3__dropdownMenu-content-categories-item-ul-li-a">
+																						Новинки
+																				</a>
+																		</li>
+																		<li class="header3__dropdownMenu-content-categories-item-ul-li">
+																				<a href="#" class="header3__dropdownMenu-content-categories-item-ul-li-a">
+																						Поларойд
+																				</a>
+																		</li>
+																		<li class="header3__dropdownMenu-content-categories-item-ul-li">
+																				<a href="#" class="header3__dropdownMenu-content-categories-item-ul-li-a">
+																						Бабочка
+																				</a>
+																		</li>
+																		<li class="header3__dropdownMenu-content-categories-item-ul-li">
+																				<a href="#" class="header3__dropdownMenu-content-categories-item-ul-li-a">
+																						Пилот
+																				</a>
+																		</li>
+																</ul>
+														</div>
+
+														<!-- Categories item -->
+														<div class="header3__dropdownMenu-content-categories-item">
+																<div class="header3__dropdownMenu-content-categories-item-title">Шапки</div>
+																<ul class="header3__dropdownMenu-content-categories-item-ul">
+																		<li class="header3__dropdownMenu-content-categories-item-ul-li">
+																				<a href="#" class="header3__dropdownMenu-content-categories-item-ul-li-a">
+																						Летние
+																				</a>
+																		</li>
+																		<li class="header3__dropdownMenu-content-categories-item-ul-li">
+																				<a href="#" class="header3__dropdownMenu-content-categories-item-ul-li-a">
+																						Демесезон
+																				</a>
+																		</li>
+																		<li class="header3__dropdownMenu-content-categories-item-ul-li">
+																				<a href="#" class="header3__dropdownMenu-content-categories-item-ul-li-a">
+																						Зимние
+																				</a>
+																		</li>
+																		<li class="header3__dropdownMenu-content-categories-item-ul-li">
+																				<a href="#" class="header3__dropdownMenu-content-categories-item-ul-li-a">
+																						Стельки
+																				</a>
+																		</li>
+																</ul>
+														</div>
+
+														<!-- Categories item -->
+														<div class="header3__dropdownMenu-content-categories-item">
+																<div class="header3__dropdownMenu-content-categories-item-title">Платья</div>
+																<ul class="header3__dropdownMenu-content-categories-item-ul">
+																		<li class="header3__dropdownMenu-content-categories-item-ul-li">
+																				<a href="#" class="header3__dropdownMenu-content-categories-item-ul-li-a">
+																						С липким слоем
+																				</a>
+																		</li>
+																		<li class="header3__dropdownMenu-content-categories-item-ul-li">
+																				<a href="#" class="header3__dropdownMenu-content-categories-item-ul-li-a">
+																						Без липкого слоя
+																				</a>
+																		</li>
+																</ul>
+														</div>
+
+												</div>
+
+												<!-- Image -->
+												<div class="col-4 header3__dropdownMenu-content-imageWrapper">
+														<img loading="lazy" data-src="component/header3/img/dropdown/1.jpg" alt="products"
+																 class="b-lazy header3__dropdownMenu-content-imageWrapper-img">
+												</div>
+										</div>
+								</div>
+						</div>
+				</div>
+
+				<!-- Header found products -->
+				<div class="header3__foundProducts header3__foundProducts-hidden">
+						<div class="container">
+								<div class="header3__foundProducts-wrapper">
+										<!-- Found products from JS -->
+								</div>
+								<button class="header3__foundProducts-showAllBtn">
+										Посмотреть все
+								</button>
+						</div>
+				</div>
+		</div>
+		<div class="header3Substrate" style="height: 64px; display: none"></div>
+		<div class="header3__darkenBackground header3__darkenBackground-hidden"></div>
+
+		<!-- component/headerMobilePopup -->
+		<div class="headerMobilePopup headerMobilePopup__smoothHidden">
+				<div class="headerMobilePopup__wrapper">
+						<div class="headerMobilePopup__menu">
+
+								<!-- Parent popup menu -->
+								<div class="headerMobilePopup__menu-parent">
+
+										<!-- Parent popup list -->
+										<div class="headerMobilePopup__menu-parent-list">
+												<!-- Parent popup list-item -->
+												<div data-mobile-category="catalog" class="headerMobilePopup__menu-parent-list-item">
+														<div class="headerMobilePopup__menu-parent-list-item-title">Каталог</div>
+														<img loading="lazy" class="b-lazy headerMobilePopup__menu-parent-list-item-icon"
+																 data-src="component/headerMobilePopup/img/arrow-right.svg" alt="arrow">
+												</div>
+
+												<!-- Parent popup list-item -->
+												<div data-mobile-category="newItem" class="headerMobilePopup__menu-parent-list-item">
+														<div class="headerMobilePopup__menu-parent-list-item-title">Новинки</div>
+														<img loading="lazy" class="b-lazy headerMobilePopup__menu-parent-list-item-icon"
+																 data-src="component/headerMobilePopup/img/arrow-right.svg" alt="arrow">
+												</div>
+
+												<!-- Parent popup list-item -->
+												<div data-mobile-category="bestSellers" class="headerMobilePopup__menu-parent-list-item">
+														<div class="headerMobilePopup__menu-parent-list-item-title">Бестселлеры</div>
+														<img loading="lazy" class="b-lazy headerMobilePopup__menu-parent-list-item-icon"
+																 data-src="component/headerMobilePopup/img/arrow-right.svg" alt="arrow">
+												</div>
+
+												<!-- Parent popup list-item -->
+												<div data-mobile-category="aboutBrand" class="headerMobilePopup__menu-parent-list-item">
+														<div class="headerMobilePopup__menu-parent-list-item-title">О бренде</div>
+												</div>
+
+												<!-- Parent popup list-item -->
+												<div data-mobile-category="forCustomers" class="headerMobilePopup__menu-parent-list-item">
+														<div class="headerMobilePopup__menu-parent-list-item-title">Покупателям</div>
+														<img loading="lazy" class="b-lazy headerMobilePopup__menu-parent-list-item-icon"
+																 data-src="component/headerMobilePopup/img/arrow-right.svg" alt="arrow">
+												</div>
+
+												<!-- Parent popup list-item -->
+												<div data-mobile-category="favorites" class="headerMobilePopup__menu-parent-list-item">
+														<div class="headerMobilePopup__menu-parent-list-item-title">Избранное</div>
+														<div class="headerMobilePopup__menu-parent-list-item-iconWrapper">
+																<img loading="lazy"
+																		 class="b-lazy headerMobilePopup__menu-parent-list-item-iconWrapper-icon"
+																		 data-src="component/headerMobilePopup/img/star.svg" alt="star">
+																<div class="headerMobilePopup__menu-parent-list-item-iconWrapper-circleTooltip">
+																		22
+																</div>
+														</div>
+
+												</div>
+										</div>
+
+										<!-- Parent popup auth section -->
+										<div class=headerMobilePopup__menu-parent-authWrapper"">
+												<div class="headerMobilePopup__menu-parent-authWrapper-title">Ваш Аккаунт</div>
+												<button class="headerMobilePopup__menu-parent-authWrapper-button headerMobilePopup__menu-parent-authWrapper-buttonAuth">
+														Вход
+												</button>
+												<button class="headerMobilePopup__menu-parent-authWrapper-button headerMobilePopup__menu-parent-authWrapper-buttonReg">
+														Регистрация
+												</button>
+										</div>
+
+								</div>
+
+								<!---------- Children ---------->
+								<!-- 1) Catalog -->
+								<div data-mobile-child="catalog" class="headerMobilePopup__menu-child headerMobilePopup__hidden">
+
+										<div class="headerMobilePopup__menu-child-header">
+												<img class="b-lazy headerMobilePopup__menu-child-header-icon"
+														 data-src="component/headerMobilePopup/img/arrow-back.svg" alt="arrow-back">
+												<div class="headerMobilePopup__menu-child-header-title">Назад</div>
+										</div>
+
+										<!-- Accordion -->
+										<div class="headerMobilePopup__menu-child-accordion">
+
+												<!-- Accordion item -->
+												<div class="headerMobilePopup__menu-child-accordion-item">
+														<button class="headerMobilePopup__menu-child-accordion-item-button">
+																Очки
+														</button>
+														<div class="headerMobilePopup__menu-child-accordion-item-panel">
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Новинки
+																</a>
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Полароид
+																</a>
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Бабочка
+																</a>
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Пилот
+																</a>
+														</div>
+												</div>
+
+												<!-- Accordion item -->
+												<div class="headerMobilePopup__menu-child-accordion-item">
+														<button class="headerMobilePopup__menu-child-accordion-item-button">
+																Сумки
+														</button>
+														<div class="headerMobilePopup__menu-child-accordion-item-panel">
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Кожанные
+																</a>
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Эко кожа
+																</a>
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Тканевые
+																</a>
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Формат А4
+																</a>
+														</div>
+												</div>
+
+												<!-- Accordion item -->
+												<div class="headerMobilePopup__menu-child-accordion-item">
+														<button class="headerMobilePopup__menu-child-accordion-item-button">
+																Обувь
+														</button>
+														<div class="headerMobilePopup__menu-child-accordion-item-panel">
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Летние
+																</a>
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Демесезон
+																</a>
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Зимние
+																</a>
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Стельки
+																</a>
+														</div>
+												</div>
+
+												<!-- Accordion item -->
+												<div class="headerMobilePopup__menu-child-accordion-item">
+														<button class="headerMobilePopup__menu-child-accordion-item-button">
+																Топы
+														</button>
+														<div class="headerMobilePopup__menu-child-accordion-item-panel">
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		С липким слоем
+																</a>
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Без липкого слоя
+																</a>
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Матовые
+																</a>
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		С шиммером
+																</a>
+														</div>
+												</div>
+
+												<!-- Accordion item -->
+												<div class="headerMobilePopup__menu-child-accordion-item">
+														<button class="headerMobilePopup__menu-child-accordion-item-button">
+																Костюмы
+														</button>
+														<div class="headerMobilePopup__menu-child-accordion-item-panel">
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Выходной
+																</a>
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Вечерний
+																</a>
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Свадебный
+																</a>
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Обычный
+																</a>
+														</div>
+												</div>
+
+												<!-- Accordion item -->
+												<div class="headerMobilePopup__menu-child-accordion-item">
+														<button class="headerMobilePopup__menu-child-accordion-item-button">
+																База
+														</button>
+														<div class="headerMobilePopup__menu-child-accordion-item-panel">
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Новинки
+																</a>
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Поларойд
+																</a>
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Бабочка
+																</a>
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Пилот
+																</a>
+														</div>
+												</div>
+
+												<!-- Accordion item -->
+												<div class="headerMobilePopup__menu-child-accordion-item">
+														<button class="headerMobilePopup__menu-child-accordion-item-button">
+																Шапки
+														</button>
+														<div class="headerMobilePopup__menu-child-accordion-item-panel">
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Летние
+																</a>
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Демесезон
+																</a>
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Зимние
+																</a>
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Пилот
+																</a>
+														</div>
+												</div>
+
+												<!-- Accordion item -->
+												<div class="headerMobilePopup__menu-child-accordion-item">
+														<button class="headerMobilePopup__menu-child-accordion-item-button">
+																Платья
+														</button>
+														<div class="headerMobilePopup__menu-child-accordion-item-panel">
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		С липким слоем
+																</a>
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Без липкого слоя
+																</a>
+														</div>
+												</div>
+
+										</div>
+
+								</div>
+
+								<!-- 2) New Item -->
+								<div data-mobile-child="newItem" class="headerMobilePopup__menu-child headerMobilePopup__hidden">
+
+										<div class="headerMobilePopup__menu-child-header">
+												<img class="b-lazy headerMobilePopup__menu-child-header-icon"
+														 data-src="component/headerMobilePopup/img/arrow-back.svg" alt="arrow-back">
+												<div class="headerMobilePopup__menu-child-header-title">Назад (новинки)</div>
+										</div>
+
+										<!-- Accordion -->
+										<div class="headerMobilePopup__menu-child-accordion">
+
+												<!-- Accordion item -->
+												<div class="headerMobilePopup__menu-child-accordion-item">
+														<button class="headerMobilePopup__menu-child-accordion-item-button">
+																Очки
+														</button>
+														<div class="headerMobilePopup__menu-child-accordion-item-panel">
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Новинки
+																</a>
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Полароид
+																</a>
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Бабочка
+																</a>
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Пилот
+																</a>
+														</div>
+												</div>
+
+												<!-- Accordion item -->
+												<div class="headerMobilePopup__menu-child-accordion-item">
+														<button class="headerMobilePopup__menu-child-accordion-item-button">
+																Сумки
+														</button>
+														<div class="headerMobilePopup__menu-child-accordion-item-panel">
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Кожанные
+																</a>
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Эко кожа
+																</a>
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Тканевые
+																</a>
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Формат А4
+																</a>
+														</div>
+												</div>
+
+												<!-- Accordion item -->
+												<div class="headerMobilePopup__menu-child-accordion-item">
+														<button class="headerMobilePopup__menu-child-accordion-item-button">
+																Обувь
+														</button>
+														<div class="headerMobilePopup__menu-child-accordion-item-panel">
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Летние
+																</a>
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Демесезон
+																</a>
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Зимние
+																</a>
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Стельки
+																</a>
+														</div>
+												</div>
+
+												<!-- Accordion item -->
+												<div class="headerMobilePopup__menu-child-accordion-item">
+														<button class="headerMobilePopup__menu-child-accordion-item-button">
+																Топы
+														</button>
+														<div class="headerMobilePopup__menu-child-accordion-item-panel">
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		С липким слоем
+																</a>
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Без липкого слоя
+																</a>
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Матовые
+																</a>
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		С шиммером
+																</a>
+														</div>
+												</div>
+
+												<!-- Accordion item -->
+												<div class="headerMobilePopup__menu-child-accordion-item">
+														<button class="headerMobilePopup__menu-child-accordion-item-button">
+																Костюмы
+														</button>
+														<div class="headerMobilePopup__menu-child-accordion-item-panel">
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Выходной
+																</a>
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Вечерний
+																</a>
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Свадебный
+																</a>
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Обычный
+																</a>
+														</div>
+												</div>
+
+												<!-- Accordion item -->
+												<div class="headerMobilePopup__menu-child-accordion-item">
+														<button class="headerMobilePopup__menu-child-accordion-item-button">
+																База
+														</button>
+														<div class="headerMobilePopup__menu-child-accordion-item-panel">
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Новинки
+																</a>
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Поларойд
+																</a>
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Бабочка
+																</a>
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Пилот
+																</a>
+														</div>
+												</div>
+
+												<!-- Accordion item -->
+												<div class="headerMobilePopup__menu-child-accordion-item">
+														<button class="headerMobilePopup__menu-child-accordion-item-button">
+																Шапки
+														</button>
+														<div class="headerMobilePopup__menu-child-accordion-item-panel">
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Летние
+																</a>
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Демесезон
+																</a>
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Зимние
+																</a>
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Пилот
+																</a>
+														</div>
+												</div>
+
+												<!-- Accordion item -->
+												<div class="headerMobilePopup__menu-child-accordion-item">
+														<button class="headerMobilePopup__menu-child-accordion-item-button">
+																Платья
+														</button>
+														<div class="headerMobilePopup__menu-child-accordion-item-panel">
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		С липким слоем
+																</a>
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Без липкого слоя
+																</a>
+														</div>
+												</div>
+
+										</div>
+
+								</div>
+
+								<!-- 3) Bestsellers -->
+								<div data-mobile-child="bestSellers" class="headerMobilePopup__menu-child headerMobilePopup__hidden">
+
+										<div class="headerMobilePopup__menu-child-header">
+												<img class="b-lazy headerMobilePopup__menu-child-header-icon"
+														 data-src="component/headerMobilePopup/img/arrow-back.svg" alt="arrow-back">
+												<div class="headerMobilePopup__menu-child-header-title">Назад (бестселлеры)</div>
+										</div>
+
+										<!-- Accordion -->
+										<div class="headerMobilePopup__menu-child-accordion">
+
+												<!-- Accordion item -->
+												<div class="headerMobilePopup__menu-child-accordion-item">
+														<button class="headerMobilePopup__menu-child-accordion-item-button">
+																Очки
+														</button>
+														<div class="headerMobilePopup__menu-child-accordion-item-panel">
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Новинки
+																</a>
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Полароид
+																</a>
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Бабочка
+																</a>
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Пилот
+																</a>
+														</div>
+												</div>
+
+												<!-- Accordion item -->
+												<div class="headerMobilePopup__menu-child-accordion-item">
+														<button class="headerMobilePopup__menu-child-accordion-item-button">
+																Сумки
+														</button>
+														<div class="headerMobilePopup__menu-child-accordion-item-panel">
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Кожанные
+																</a>
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Эко кожа
+																</a>
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Тканевые
+																</a>
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Формат А4
+																</a>
+														</div>
+												</div>
+
+												<!-- Accordion item -->
+												<div class="headerMobilePopup__menu-child-accordion-item">
+														<button class="headerMobilePopup__menu-child-accordion-item-button">
+																Обувь
+														</button>
+														<div class="headerMobilePopup__menu-child-accordion-item-panel">
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Летние
+																</a>
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Демесезон
+																</a>
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Зимние
+																</a>
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Стельки
+																</a>
+														</div>
+												</div>
+
+												<!-- Accordion item -->
+												<div class="headerMobilePopup__menu-child-accordion-item">
+														<button class="headerMobilePopup__menu-child-accordion-item-button">
+																Топы
+														</button>
+														<div class="headerMobilePopup__menu-child-accordion-item-panel">
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		С липким слоем
+																</a>
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Без липкого слоя
+																</a>
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Матовые
+																</a>
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		С шиммером
+																</a>
+														</div>
+												</div>
+
+												<!-- Accordion item -->
+												<div class="headerMobilePopup__menu-child-accordion-item">
+														<button class="headerMobilePopup__menu-child-accordion-item-button">
+																Костюмы
+														</button>
+														<div class="headerMobilePopup__menu-child-accordion-item-panel">
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Выходной
+																</a>
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Вечерний
+																</a>
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Свадебный
+																</a>
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Обычный
+																</a>
+														</div>
+												</div>
+
+												<!-- Accordion item -->
+												<div class="headerMobilePopup__menu-child-accordion-item">
+														<button class="headerMobilePopup__menu-child-accordion-item-button">
+																База
+														</button>
+														<div class="headerMobilePopup__menu-child-accordion-item-panel">
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Новинки
+																</a>
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Поларойд
+																</a>
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Бабочка
+																</a>
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Пилот
+																</a>
+														</div>
+												</div>
+
+												<!-- Accordion item -->
+												<div class="headerMobilePopup__menu-child-accordion-item">
+														<button class="headerMobilePopup__menu-child-accordion-item-button">
+																Шапки
+														</button>
+														<div class="headerMobilePopup__menu-child-accordion-item-panel">
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Летние
+																</a>
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Демесезон
+																</a>
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Зимние
+																</a>
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Пилот
+																</a>
+														</div>
+												</div>
+
+												<!-- Accordion item -->
+												<div class="headerMobilePopup__menu-child-accordion-item">
+														<button class="headerMobilePopup__menu-child-accordion-item-button">
+																Платья
+														</button>
+														<div class="headerMobilePopup__menu-child-accordion-item-panel">
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		С липким слоем
+																</a>
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Без липкого слоя
+																</a>
+														</div>
+												</div>
+
+										</div>
+
+								</div>
+
+								<!-- 4) About brand -->
+								<div data-mobile-child="aboutBrand" class="headerMobilePopup__menu-child headerMobilePopup__hidden">
+
+										<div class="headerMobilePopup__menu-child-header">
+												<img class="b-lazy headerMobilePopup__menu-child-header-icon"
+														 data-src="component/headerMobilePopup/img/arrow-back.svg" alt="arrow-back">
+												<div class="headerMobilePopup__menu-child-header-title">Назад (о бренде)</div>
+										</div>
+
+										<!-- Accordion -->
+										<div class="headerMobilePopup__menu-child-accordion">
+
+												<!-- Accordion item -->
+												<div class="headerMobilePopup__menu-child-accordion-item">
+														<button class="headerMobilePopup__menu-child-accordion-item-button">
+																Очки
+														</button>
+														<div class="headerMobilePopup__menu-child-accordion-item-panel">
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Новинки
+																</a>
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Полароид
+																</a>
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Бабочка
+																</a>
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Пилот
+																</a>
+														</div>
+												</div>
+
+												<!-- Accordion item -->
+												<div class="headerMobilePopup__menu-child-accordion-item">
+														<button class="headerMobilePopup__menu-child-accordion-item-button">
+																Сумки
+														</button>
+														<div class="headerMobilePopup__menu-child-accordion-item-panel">
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Кожанные
+																</a>
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Эко кожа
+																</a>
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Тканевые
+																</a>
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Формат А4
+																</a>
+														</div>
+												</div>
+
+												<!-- Accordion item -->
+												<div class="headerMobilePopup__menu-child-accordion-item">
+														<button class="headerMobilePopup__menu-child-accordion-item-button">
+																Обувь
+														</button>
+														<div class="headerMobilePopup__menu-child-accordion-item-panel">
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Летние
+																</a>
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Демесезон
+																</a>
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Зимние
+																</a>
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Стельки
+																</a>
+														</div>
+												</div>
+
+												<!-- Accordion item -->
+												<div class="headerMobilePopup__menu-child-accordion-item">
+														<button class="headerMobilePopup__menu-child-accordion-item-button">
+																Топы
+														</button>
+														<div class="headerMobilePopup__menu-child-accordion-item-panel">
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		С липким слоем
+																</a>
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Без липкого слоя
+																</a>
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Матовые
+																</a>
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		С шиммером
+																</a>
+														</div>
+												</div>
+
+												<!-- Accordion item -->
+												<div class="headerMobilePopup__menu-child-accordion-item">
+														<button class="headerMobilePopup__menu-child-accordion-item-button">
+																Костюмы
+														</button>
+														<div class="headerMobilePopup__menu-child-accordion-item-panel">
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Выходной
+																</a>
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Вечерний
+																</a>
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Свадебный
+																</a>
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Обычный
+																</a>
+														</div>
+												</div>
+
+												<!-- Accordion item -->
+												<div class="headerMobilePopup__menu-child-accordion-item">
+														<button class="headerMobilePopup__menu-child-accordion-item-button">
+																База
+														</button>
+														<div class="headerMobilePopup__menu-child-accordion-item-panel">
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Новинки
+																</a>
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Поларойд
+																</a>
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Бабочка
+																</a>
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Пилот
+																</a>
+														</div>
+												</div>
+
+												<!-- Accordion item -->
+												<div class="headerMobilePopup__menu-child-accordion-item">
+														<button class="headerMobilePopup__menu-child-accordion-item-button">
+																Шапки
+														</button>
+														<div class="headerMobilePopup__menu-child-accordion-item-panel">
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Летние
+																</a>
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Демесезон
+																</a>
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Зимние
+																</a>
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Пилот
+																</a>
+														</div>
+												</div>
+
+												<!-- Accordion item -->
+												<div class="headerMobilePopup__menu-child-accordion-item">
+														<button class="headerMobilePopup__menu-child-accordion-item-button">
+																Платья
+														</button>
+														<div class="headerMobilePopup__menu-child-accordion-item-panel">
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		С липким слоем
+																</a>
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Без липкого слоя
+																</a>
+														</div>
+												</div>
+
+										</div>
+
+								</div>
+
+								<!-- 5) For customers -->
+								<div data-mobile-child="forCustomers" class="headerMobilePopup__menu-child headerMobilePopup__hidden">
+
+										<div class="headerMobilePopup__menu-child-header">
+												<img class="b-lazy headerMobilePopup__menu-child-header-icon"
+														 data-src="component/headerMobilePopup/img/arrow-back.svg" alt="arrow-back">
+												<div class="headerMobilePopup__menu-child-header-title">Назад (покупателям)</div>
+										</div>
+
+										<!-- Accordion -->
+										<div class="headerMobilePopup__menu-child-accordion">
+
+												<!-- Accordion item -->
+												<div class="headerMobilePopup__menu-child-accordion-item">
+														<button class="headerMobilePopup__menu-child-accordion-item-button">
+																Очки
+														</button>
+														<div class="headerMobilePopup__menu-child-accordion-item-panel">
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Новинки
+																</a>
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Полароид
+																</a>
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Бабочка
+																</a>
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Пилот
+																</a>
+														</div>
+												</div>
+
+												<!-- Accordion item -->
+												<div class="headerMobilePopup__menu-child-accordion-item">
+														<button class="headerMobilePopup__menu-child-accordion-item-button">
+																Сумки
+														</button>
+														<div class="headerMobilePopup__menu-child-accordion-item-panel">
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Кожанные
+																</a>
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Эко кожа
+																</a>
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Тканевые
+																</a>
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Формат А4
+																</a>
+														</div>
+												</div>
+
+												<!-- Accordion item -->
+												<div class="headerMobilePopup__menu-child-accordion-item">
+														<button class="headerMobilePopup__menu-child-accordion-item-button">
+																Обувь
+														</button>
+														<div class="headerMobilePopup__menu-child-accordion-item-panel">
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Летние
+																</a>
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Демесезон
+																</a>
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Зимние
+																</a>
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Стельки
+																</a>
+														</div>
+												</div>
+
+												<!-- Accordion item -->
+												<div class="headerMobilePopup__menu-child-accordion-item">
+														<button class="headerMobilePopup__menu-child-accordion-item-button">
+																Топы
+														</button>
+														<div class="headerMobilePopup__menu-child-accordion-item-panel">
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		С липким слоем
+																</a>
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Без липкого слоя
+																</a>
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Матовые
+																</a>
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		С шиммером
+																</a>
+														</div>
+												</div>
+
+												<!-- Accordion item -->
+												<div class="headerMobilePopup__menu-child-accordion-item">
+														<button class="headerMobilePopup__menu-child-accordion-item-button">
+																Костюмы
+														</button>
+														<div class="headerMobilePopup__menu-child-accordion-item-panel">
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Выходной
+																</a>
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Вечерний
+																</a>
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Свадебный
+																</a>
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Обычный
+																</a>
+														</div>
+												</div>
+
+												<!-- Accordion item -->
+												<div class="headerMobilePopup__menu-child-accordion-item">
+														<button class="headerMobilePopup__menu-child-accordion-item-button">
+																База
+														</button>
+														<div class="headerMobilePopup__menu-child-accordion-item-panel">
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Новинки
+																</a>
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Поларойд
+																</a>
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Бабочка
+																</a>
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Пилот
+																</a>
+														</div>
+												</div>
+
+												<!-- Accordion item -->
+												<div class="headerMobilePopup__menu-child-accordion-item">
+														<button class="headerMobilePopup__menu-child-accordion-item-button">
+																Шапки
+														</button>
+														<div class="headerMobilePopup__menu-child-accordion-item-panel">
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Летние
+																</a>
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Демесезон
+																</a>
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Зимние
+																</a>
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Пилот
+																</a>
+														</div>
+												</div>
+
+												<!-- Accordion item -->
+												<div class="headerMobilePopup__menu-child-accordion-item">
+														<button class="headerMobilePopup__menu-child-accordion-item-button">
+																Платья
+														</button>
+														<div class="headerMobilePopup__menu-child-accordion-item-panel">
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		С липким слоем
+																</a>
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Без липкого слоя
+																</a>
+														</div>
+												</div>
+
+										</div>
+
+								</div>
+
+								<!-- 6) Favorites -->
+								<div data-mobile-child="favorites" class="headerMobilePopup__menu-child headerMobilePopup__hidden">
+
+										<div class="headerMobilePopup__menu-child-header">
+												<img class="b-lazy headerMobilePopup__menu-child-header-icon"
+														 data-src="component/headerMobilePopup/img/arrow-back.svg" alt="arrow-back">
+												<div class="headerMobilePopup__menu-child-header-title">Назад (избранное)</div>
+										</div>
+
+										<!-- Accordion -->
+										<div class="headerMobilePopup__menu-child-accordion">
+
+												<!-- Accordion item -->
+												<div class="headerMobilePopup__menu-child-accordion-item">
+														<button class="headerMobilePopup__menu-child-accordion-item-button">
+																Очки
+														</button>
+														<div class="headerMobilePopup__menu-child-accordion-item-panel">
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Новинки
+																</a>
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Полароид
+																</a>
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Бабочка
+																</a>
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Пилот
+																</a>
+														</div>
+												</div>
+
+												<!-- Accordion item -->
+												<div class="headerMobilePopup__menu-child-accordion-item">
+														<button class="headerMobilePopup__menu-child-accordion-item-button">
+																Сумки
+														</button>
+														<div class="headerMobilePopup__menu-child-accordion-item-panel">
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Кожанные
+																</a>
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Эко кожа
+																</a>
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Тканевые
+																</a>
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Формат А4
+																</a>
+														</div>
+												</div>
+
+												<!-- Accordion item -->
+												<div class="headerMobilePopup__menu-child-accordion-item">
+														<button class="headerMobilePopup__menu-child-accordion-item-button">
+																Обувь
+														</button>
+														<div class="headerMobilePopup__menu-child-accordion-item-panel">
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Летние
+																</a>
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Демесезон
+																</a>
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Зимние
+																</a>
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Стельки
+																</a>
+														</div>
+												</div>
+
+												<!-- Accordion item -->
+												<div class="headerMobilePopup__menu-child-accordion-item">
+														<button class="headerMobilePopup__menu-child-accordion-item-button">
+																Топы
+														</button>
+														<div class="headerMobilePopup__menu-child-accordion-item-panel">
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		С липким слоем
+																</a>
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Без липкого слоя
+																</a>
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Матовые
+																</a>
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		С шиммером
+																</a>
+														</div>
+												</div>
+
+												<!-- Accordion item -->
+												<div class="headerMobilePopup__menu-child-accordion-item">
+														<button class="headerMobilePopup__menu-child-accordion-item-button">
+																Костюмы
+														</button>
+														<div class="headerMobilePopup__menu-child-accordion-item-panel">
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Выходной
+																</a>
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Вечерний
+																</a>
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Свадебный
+																</a>
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Обычный
+																</a>
+														</div>
+												</div>
+
+												<!-- Accordion item -->
+												<div class="headerMobilePopup__menu-child-accordion-item">
+														<button class="headerMobilePopup__menu-child-accordion-item-button">
+																База
+														</button>
+														<div class="headerMobilePopup__menu-child-accordion-item-panel">
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Новинки
+																</a>
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Поларойд
+																</a>
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Бабочка
+																</a>
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Пилот
+																</a>
+														</div>
+												</div>
+
+												<!-- Accordion item -->
+												<div class="headerMobilePopup__menu-child-accordion-item">
+														<button class="headerMobilePopup__menu-child-accordion-item-button">
+																Шапки
+														</button>
+														<div class="headerMobilePopup__menu-child-accordion-item-panel">
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Летние
+																</a>
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Демесезон
+																</a>
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Зимние
+																</a>
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Пилот
+																</a>
+														</div>
+												</div>
+
+												<!-- Accordion item -->
+												<div class="headerMobilePopup__menu-child-accordion-item">
+														<button class="headerMobilePopup__menu-child-accordion-item-button">
+																Платья
+														</button>
+														<div class="headerMobilePopup__menu-child-accordion-item-panel">
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		С липким слоем
+																</a>
+																<a href="#" class="headerMobilePopup__menu-child-accordion-item-panel-link">
+																		Без липкого слоя
+																</a>
+														</div>
+												</div>
+
+										</div>
+
+								</div>
+
+						</div>
+				</div>
+		</div>
+
+</header>
+
+<main class="main">
+		<!-- component/introSlider > 768px -->
+		<section class="introSlider">
+				<!-- Slider item -->
+				<div class="introSlider__item">
+						<img loading="lazy" data-src="img/introSlider/1.jpg" alt="slider-bg" class="b-lazy introSlider__item-bg">
+						<div class="container">
+								<div class="introSlider__item-info">
+										<div class="introSlider__item-info-suptitle">
+												Новинка
+										</div>
+										<h2 class="introSlider__item-info-title">
+												Летняя коллекция
+										</h2>
+										<button class="introSlider__item-info-button">
+												<a href="#" class="introSlider__item-info-button-link">Посмотреть коллекцию</a>
+										</button>
+								</div>
+						</div>
+				</div>
+
+				<!-- Slider item -->
+				<div class="introSlider__item">
+						<img loading="lazy" data-src="img/introSlider/2.jpg" alt="slider-bg" class="b-lazy introSlider__item-bg">
+						<div class="container">
+								<div class="introSlider__item-info">
+										<div class="introSlider__item-info-suptitle">
+												Не новинка
+										</div>
+										<h2 class="introSlider__item-info-title">
+												Не летняя коллекция
+										</h2>
+										<button class="introSlider__item-info-button">
+												<a href="#" class="introSlider__item-info-button-link">Посмотреть коллекцию</a>
+										</button>
+								</div>
+						</div>
+				</div>
+		</section>
+
+		<!--component/introSliderMobile <= 768px -->
+		<section class="introSliderMobile">
+
+				<!-- Slider item -->
+				<div class="introSliderMobile__item">
+						<img class="b-lazy introSliderMobile__item-img" data-src="img/introSlider/320-768/1.jpg" alt="collection">
+						<div class="container">
+								<div class="introSliderMobile__item-info">
+										<div class="introSliderMobile__item-info-suptitle">Новинка</div>
+										<div class="introSliderMobile__item-info-title">Летняя коллекция</div>
+										<button class="introSliderMobile__item-info-button">
+												<a href="#" class="introSliderMobile__item-info-button-link">Посмотреть коллекцию</a>
+										</button>
+								</div>
+						</div>
+				</div>
+
+				<!-- Slider item -->
+				<div class="introSliderMobile__item">
+						<img class="b-lazy introSliderMobile__item-img" data-src="img/introSlider/320-768/1.jpg" alt="collection">
+						<div class="container">
+								<div class="introSliderMobile__item-info">
+										<div class="introSliderMobile__item-info-suptitle">Новинка</div>
+										<div class="introSliderMobile__item-info-title">Летняя коллекция</div>
+										<button class="introSliderMobile__item-info-button">
+												<a href="#" class="introSliderMobile__item-info-button-link">Посмотреть коллекцию</a>
+										</button>
+								</div>
+						</div>
+				</div>
+
+				<!-- Slider item -->
+				<div class="introSliderMobile__item">
+						<img class="b-lazy introSliderMobile__item-img" data-src="img/introSlider/320-768/1.jpg" alt="collection">
+						<div class="container">
+								<div class="introSliderMobile__item-info">
+										<div class="introSliderMobile__item-info-suptitle">Новинка</div>
+										<div class="introSliderMobile__item-info-title">Летняя коллекция</div>
+										<button class="introSliderMobile__item-info-button">
+												<a href="#" class="introSliderMobile__item-info-button-link">Посмотреть коллекцию</a>
+										</button>
+								</div>
+						</div>
+				</div>
+
+		</section>
+
+
+		<!-- component/collectionSlider -->
+		<section class="collectionSlider">
+				<div class="container">
+
+						<div class="collectionSlider__header">
+								<h2 class="collectionSlider__header-title">
+										Сезонная коллекция
+								</h2>
+								<div class="collectionSlider__header-sliderControls">
+										<img data-src="img/slider-arrow-prev.svg"
+												 class="b-lazy collectionSlider__header-sliderControls-prev" alt="arrow-left">
+
+										<div class="collectionSlider__header-sliderControls-dots">
+												<!-- Dots inserted with JavaScript -->
+										</div>
+
+										<img data-src="img/slider-arrow-next.svg"
+												 class="b-lazy collectionSlider__header-sliderControls-next" alt="arrow-right">
+								</div>
+						</div>
+
+						<div class="collectionSlider__sliderWrapper">
+
+								<!-- Slider item 1 -->
+								<div class="collectionSlider__sliderWrapper-item">
+										<img loading="lazy" src="img/collectionSlider/1.jpg" alt="slider-item"
+												 class="b-lazy collectionSlider__sliderWrapper-item-bg">
+										<div class="collectionSlider__sliderWrapper-item-footer">
+
+												<div class="collectionSlider__sliderWrapper-item-footer-info">
+														<div class="collectionSlider__sliderWrapper-item-footer-info-title">
+																Очки
+														</div>
+														<div class="collectionSlider__sliderWrapper-item-footer-info-amount">
+																10 товаров
+														</div>
+												</div>
+
+												<button class="collectionSlider__sliderWrapper-item-footer-button">
+														<img src="component/collectionSlider/img/slide-arrow-right.svg" alt="arrow-right"
+																 class="b-lazy collectionSlider__sliderWrapper-item-footer-button-icon">
+												</button>
+
+										</div>
+								</div>
+
+								<!-- Slider item 2 -->
+								<div class="collectionSlider__sliderWrapper-item">
+										<img loading="lazy" src="img/collectionSlider/2.jpg" alt="slider-item"
+												 class="b-lazy collectionSlider__sliderWrapper-item-bg">
+										<div class="collectionSlider__sliderWrapper-item-footer">
+
+												<div class="collectionSlider__sliderWrapper-item-footer-info">
+														<div class="collectionSlider__sliderWrapper-item-footer-info-title">
+																Сумки
+														</div>
+														<div class="collectionSlider__sliderWrapper-item-footer-info-amount">
+																12 товаров
+														</div>
+												</div>
+
+												<button class="collectionSlider__sliderWrapper-item-footer-button">
+														<img src="component/collectionSlider/img/slide-arrow-right.svg" alt="arrow-right"
+																 class="b-lazy collectionSlider__sliderWrapper-item-footer-button-icon">
+												</button>
+
+										</div>
+								</div>
+
+								<!-- Slider item 3 -->
+								<div class="collectionSlider__sliderWrapper-item">
+										<img loading="lazy" src="img/collectionSlider/3.jpg" alt="slider-item"
+												 class="b-lazy collectionSlider__sliderWrapper-item-bg">
+										<div class="collectionSlider__sliderWrapper-item-footer">
+
+												<div class="collectionSlider__sliderWrapper-item-footer-info">
+														<div class="collectionSlider__sliderWrapper-item-footer-info-title">
+																Обувь
+														</div>
+														<div class="collectionSlider__sliderWrapper-item-footer-info-amount">
+																12 товаров
+														</div>
+												</div>
+
+												<button class="collectionSlider__sliderWrapper-item-footer-button">
+														<img src="component/collectionSlider/img/slide-arrow-right.svg" alt="arrow-right"
+																 class="b-lazy collectionSlider__sliderWrapper-item-footer-button-icon">
+												</button>
+
+										</div>
+								</div>
+
+								<!-- Slider item 4 -->
+								<div class="collectionSlider__sliderWrapper-item">
+										<img loading="lazy" src="img/collectionSlider/4.jpg" alt="slider-item"
+												 class="b-lazy collectionSlider__sliderWrapper-item-bg">
+										<div class="collectionSlider__sliderWrapper-item-footer">
+
+												<div class="collectionSlider__sliderWrapper-item-footer-info">
+														<div class="collectionSlider__sliderWrapper-item-footer-info-title">
+																Топ
+														</div>
+														<div class="collectionSlider__sliderWrapper-item-footer-info-amount">
+																12 товаров
+														</div>
+												</div>
+
+												<button class="collectionSlider__sliderWrapper-item-footer-button">
+														<img src="component/collectionSlider/img/slide-arrow-right.svg" alt="arrow-right"
+																 class="b-lazy collectionSlider__sliderWrapper-item-footer-button-icon">
+												</button>
+
+										</div>
+								</div>
+
+								<!-- Slider item 5 -->
+								<div class="collectionSlider__sliderWrapper-item">
+										<img loading="lazy" src="img/collectionSlider/5.jpg" alt="slider-item"
+												 class="b-lazy collectionSlider__sliderWrapper-item-bg">
+										<div class="collectionSlider__sliderWrapper-item-footer">
+
+												<div class="collectionSlider__sliderWrapper-item-footer-info">
+														<div class="collectionSlider__sliderWrapper-item-footer-info-title">
+																Костюм
+														</div>
+														<div class="collectionSlider__sliderWrapper-item-footer-info-amount">
+																12 товаров
+														</div>
+												</div>
+
+												<button class="collectionSlider__sliderWrapper-item-footer-button">
+														<img src="component/collectionSlider/img/slide-arrow-right.svg" alt="arrow-right"
+																 class="b-lazy collectionSlider__sliderWrapper-item-footer-button-icon">
+												</button>
+
+										</div>
+								</div>
+
+								<!-- Slider item 6 -->
+								<div class="collectionSlider__sliderWrapper-item">
+										<img loading="lazy" src="img/collectionSlider/6.jpg" alt="slider-item"
+												 class="b-lazy collectionSlider__sliderWrapper-item-bg">
+										<div class="collectionSlider__sliderWrapper-item-footer">
+
+												<div class="collectionSlider__sliderWrapper-item-footer-info">
+														<div class="collectionSlider__sliderWrapper-item-footer-info-title">
+																База
+														</div>
+														<div class="collectionSlider__sliderWrapper-item-footer-info-amount">
+																12 товаров
+														</div>
+												</div>
+
+												<button class="collectionSlider__sliderWrapper-item-footer-button">
+														<img src="component/collectionSlider/img/slide-arrow-right.svg" alt="arrow-right"
+																 class="b-lazy collectionSlider__sliderWrapper-item-footer-button-icon">
+												</button>
+
+										</div>
+								</div>
+
+								<!-- MOCK DATA -->
+								<!-- Slider item 7 -->
+								<div class="collectionSlider__sliderWrapper-item">
+										<img loading="lazy" src="img/collectionSlider/6.jpg" alt="slider-item"
+												 class="b-lazy collectionSlider__sliderWrapper-item-bg">
+										<div class="collectionSlider__sliderWrapper-item-footer">
+
+												<div class="collectionSlider__sliderWrapper-item-footer-info">
+														<div class="collectionSlider__sliderWrapper-item-footer-info-title">
+																База
+														</div>
+														<div class="collectionSlider__sliderWrapper-item-footer-info-amount">
+																12 товаров
+														</div>
+												</div>
+
+												<button class="collectionSlider__sliderWrapper-item-footer-button">
+														<img src="component/collectionSlider/img/slide-arrow-right.svg" alt="arrow-right"
+																 class="b-lazy collectionSlider__sliderWrapper-item-footer-button-icon">
+												</button>
+
+										</div>
+								</div>
+
+								<!-- Slider item 8 -->
+								<div class="collectionSlider__sliderWrapper-item">
+										<img loading="lazy" src="img/collectionSlider/6.jpg" alt="slider-item"
+												 class="b-lazy collectionSlider__sliderWrapper-item-bg">
+										<div class="collectionSlider__sliderWrapper-item-footer">
+
+												<div class="collectionSlider__sliderWrapper-item-footer-info">
+														<div class="collectionSlider__sliderWrapper-item-footer-info-title">
+																База
+														</div>
+														<div class="collectionSlider__sliderWrapper-item-footer-info-amount">
+																12 товаров
+														</div>
+												</div>
+
+												<button class="collectionSlider__sliderWrapper-item-footer-button">
+														<img src="component/collectionSlider/img/slide-arrow-right.svg" alt="arrow-right"
+																 class="b-lazy collectionSlider__sliderWrapper-item-footer-button-icon">
+												</button>
+
+										</div>
+								</div>
+
+								<!-- Slider item 9 -->
+								<div class="collectionSlider__sliderWrapper-item">
+										<img loading="lazy" src="img/collectionSlider/6.jpg" alt="slider-item"
+												 class="b-lazy collectionSlider__sliderWrapper-item-bg">
+										<div class="collectionSlider__sliderWrapper-item-footer">
+
+												<div class="collectionSlider__sliderWrapper-item-footer-info">
+														<div class="collectionSlider__sliderWrapper-item-footer-info-title">
+																База
+														</div>
+														<div class="collectionSlider__sliderWrapper-item-footer-info-amount">
+																12 товаров
+														</div>
+												</div>
+
+												<button class="collectionSlider__sliderWrapper-item-footer-button">
+														<img src="component/collectionSlider/img/slide-arrow-right.svg" alt="arrow-right"
+																 class="b-lazy collectionSlider__sliderWrapper-item-footer-button-icon">
+												</button>
+
+										</div>
+								</div>
+
+						</div>
+				</div>
+		</section>
+
+		<!-- component/catalogGrid -->
+		<section class="catalogGrid">
+				<div class="container">
+						<div class="catalogGrid__header">
+								<div class="catalogGrid__header-text">Вы смотрите</div>
+								<div class="catalogGrid__header-select">
+										<!-- Active filter -->
+										<div class="catalogGrid__header-select-text">Бестселлеры</div>
+										<img data-src="component/catalogGrid/img/arrow-down.svg" alt="arrow-down"
+												 class="b-lazy catalogGrid__header-select-icon">
+
+										<!-- Dropdown menu -->
+										<ul class="catalogGrid__header-select-dropdownMenu hidden">
+												<li key="bestSellers" class="catalogGrid__header-select-dropdownMenu-item">Бестселлеры</li>
+												<li key="newProducts" class="catalogGrid__header-select-dropdownMenu-item">Новинки</li>
+										</ul>
+								</div>
+						</div>
+
+						<div class="catalogGrid__wrapper">
+								<!-- Products loading from .json -->
+						</div>
+
+						<button class="catalogGrid__loadMoreBtn">
+								Загрузить больше
+						</button>
+				</div>
+		</section>
+
+		<!-- component/benefits -->
+		<section class="benefits">
+				<div class="container">
+						<div class="row justify-content-between align-items-center benefits__wrapper">
+
+								<div class="col-12 col-md-6 col-xxl-3 benefits__wrapper-item">
+										<img data-src="component/benefits/img/1.svg" alt="benefit"
+												 class="b-lazy benefits__wrapper-item-icon">
+										<div class="benefits__wrapper-item-info">
+												<div class="benefits__wrapper-item-info-title">Бесплатная доставка</div>
+												<div class="benefits__wrapper-item-info-subtitle">Любой службой доставки</div>
+										</div>
+								</div>
+
+								<div class="col-12 col-md-6 col-xxl-3 benefits__wrapper-item">
+										<img data-src="component/benefits/img/2.svg" alt="benefit"
+												 class="b-lazy benefits__wrapper-item-icon">
+										<div class="benefits__wrapper-item-info">
+												<div class="benefits__wrapper-item-info-title">Оплата при получении</div>
+												<div class="benefits__wrapper-item-info-subtitle">Платите после примерки продукции</div>
+										</div>
+								</div>
+
+								<div class="col-12 col-md-6 col-xxl-3 benefits__wrapper-item">
+										<img data-src="component/benefits/img/3.svg" alt="benefit"
+												 class="b-lazy benefits__wrapper-item-icon">
+										<div class="benefits__wrapper-item-info">
+												<div class="benefits__wrapper-item-info-title">Онлайн поддержка</div>
+												<div class="benefits__wrapper-item-info-subtitle">На связи с вами каждый день с 10-18:00</div>
+										</div>
+								</div>
+
+								<div class="col-12 col-md-6 col-xxl-3 benefits__wrapper-item">
+										<img data-src="component/benefits/img/4.svg" alt="benefit"
+												 class="b-lazy benefits__wrapper-item-icon">
+										<div class="benefits__wrapper-item-info">
+												<div class="benefits__wrapper-item-info-title">Принимаем любые карты</div>
+												<div class="benefits__wrapper-item-info-subtitle">Принимаем зарубежные карты к оплате</div>
+										</div>
+								</div>
+
+						</div>
+				</div>
+		</section>
+
+</main>
+
+<footer>
+
+		<!-- component/footer1 -->
+		<div class="footer1">
+				<div class="container">
+						<!-- Footer > 1200px -->
+						<div class="row justify-content-between footer1__wrapper">
+
+								<div class="col-3 footer1__wrapper-item">
+										<div class="footer1__wrapper-item-title">
+												Клиентам
+										</div>
+										<a href="#" class="footer1__wrapper-item-link">Политика конфиденциальности</a>
+										<a href="#" class="footer1__wrapper-item-link">Политика возврата денежных средств</a>
+										<a href="#" class="footer1__wrapper-item-link">Доставка и возврат</a>
+										<a href="#" class="footer1__wrapper-item-link">Условия и положения</a>
+										<a href="#" class="footer1__wrapper-item-link">Как сделать заказ</a>
+								</div>
+
+								<div class="col-3 footer1__wrapper-item">
+										<div class="footer1__wrapper-item-title">
+												Полезные ссылки
+										</div>
+										<a href="#" class="footer1__wrapper-item-link">Личный кабинет</a>
+										<a href="#" class="footer1__wrapper-item-link">Корзина</a>
+										<a href="#" class="footer1__wrapper-item-link">Избранное</a>
+										<a href="#" class="footer1__wrapper-item-link">Каталог</a>
+										<a href="#" class="footer1__wrapper-item-link">О бренде</a>
+								</div>
+
+								<div class="col-3 footer1__wrapper-item">
+										<div class="footer1__wrapper-item-title">
+												Контакты магазина
+										</div>
+										<a href="#" class="footer1__wrapper-item-link footer1__wrapper-item-address mb-auto">
+												Официальный магазин бренда <br>
+												г.Москва, ул.Пушкина 19
+										</a>
+										<a href="tel:8 800 000-00-00" class="footer1__wrapper-item-link">
+												8 800 000-00-00
+										</a>
+										<a href="mailto:hello@yaubrand.ru" class="footer1__wrapper-item-link">
+												hello@yaubrand.ru
+										</a>
+								</div>
+
+								<div class="col-3 footer1__wrapper-item">
+										<div class="footer1__wrapper-item-title">
+												Подписка
+										</div>
+										<div class="footer1__wrapper-item-text">
+												Узнайте первыми о новинках и скидках в нашем магазине Youbrand
+										</div>
+										<div class="footer1__wrapper-item-inputWrapper">
+												<form name="footerForm" class="footer1__wrapper-item-inputWrapper-form">
+														<label for="email">
+																<img data-src="component/footer1/img/email.svg" alt="email"
+																		 class="b-lazy footer1__wrapper-item-inputWrapper-icon">
+														</label>
+														<input required id="email" type="email" class="footer1__wrapper-item-inputWrapper-input"
+																	 placeholder="Введите ваш Email">
+														<button type="submit" class="footer1__wrapper-item-inputWrapper-button">
+																<img data-src="component/footer1/img/input-submit.svg" alt="submit"
+																		 class="b-lazy footer1__wrapper-item-inputWrapper-button-img">
+														</button>
+												</form>
+										</div>
+								</div>
+
+						</div>
+
+						<!-- Footer <= 1200px (Accordion) -->
+						<div class="footer1__wrapperAccordion">
+
+								<!-- Accordion item -->
+								<div class="footer1__wrapperAccordion-item">
+										<button class="footer1__wrapperAccordion-item-button">Подписка</button>
+										<div class="footer1__wrapperAccordion-item-panel">
+												<div class="footer1__wrapperAccordion-item-panel-text">
+														Узнайте первыми о новинках и скидках в
+														нашем магазине Youbrand
+												</div>
+												<div class="footer1__wrapperAccordion-item-panel-inputWrapper">
+														<form name="footerFormMobile">
+																<label for="emailAccordion">
+																		<img data-src="component/footer1/img/email.svg" alt="email"
+																				 class="b-lazy footer1__wrapperAccordion-item-panel-inputWrapper-icon">
+																</label>
+																<input required id="emailAccordion" type="email"
+																			 class="footer1__wrapperAccordion-item-panel-inputWrapper-input"
+																			 placeholder="Введите ваш Email">
+																<button type="submit" class="footer1__wrapperAccordion-item-panel-inputWrapper-button">
+																		<img data-src="component/footer1/img/input-submit.svg" alt="submit"
+																				 class="b-lazy footer1__wrapperAccordion-item-panel-inputWrapper-button-img">
+																</button>
+														</form>
+												</div>
+										</div>
+								</div>
+
+								<!-- Accordion item -->
+								<div class="footer1__wrapperAccordion-item">
+										<button class="footer1__wrapperAccordion-item-button">Клиентам</button>
+										<div class="footer1__wrapperAccordion-item-panel">
+												<a href="#" class="footer1__wrapper-item-link">Политика конфиденциальности</a>
+												<a href="#" class="footer1__wrapper-item-link">Политика возврата денежных средств</a>
+												<a href="#" class="footer1__wrapper-item-link">Доставка и возврат</a>
+												<a href="#" class="footer1__wrapper-item-link">Условия и положения</a>
+												<a href="#" class="footer1__wrapper-item-link">Как сделать заказ</a>
+										</div>
+								</div>
+
+								<!-- Accordion item -->
+								<div class="footer1__wrapperAccordion-item">
+										<button class="footer1__wrapperAccordion-item-button">Полезные ссылки</button>
+										<div class="footer1__wrapperAccordion-item-panel">
+												<a href="#" class="footer1__wrapper-item-link">Личный кабинет</a>
+												<a href="#" class="footer1__wrapper-item-link">Корзина</a>
+												<a href="#" class="footer1__wrapper-item-link">Избранное</a>
+												<a href="#" class="footer1__wrapper-item-link">Каталог</a>
+												<a href="#" class="footer1__wrapper-item-link">О бренде</a>
+										</div>
+								</div>
+
+								<!-- Accordion item -->
+								<div class="footer1__wrapperAccordion-item">
+										<button class="footer1__wrapperAccordion-item-button">Контакты магазина</button>
+										<div class="footer1__wrapperAccordion-item-panel">
+												<a href="#" class="footer1__wrapper-item-link footer1__wrapper-item-address mb-auto">
+														Официальный магазин бренда <br>
+														г.Москва, ул.Пушкина 19
+												</a>
+												<a href="tel:8 800 000-00-00" class="footer1__wrapper-item-link">
+														8 800 000-00-00
+												</a>
+												<a href="mailto:hello@yaubrand.ru" class="footer1__wrapper-item-link">
+														hello@yaubrand.ru
+												</a>
+										</div>
+								</div>
+
+						</div>
+				</div>
+		</div>
+
+		<!-- component/footer2 -->
+		<div class="footer2">
+				<div class="container">
+						<div class="row justify-content-between align-items-center footer2__wrapper">
+								<div class="col-12 col-xl-5 footer2__wrapper-partnersWrapper">
+
+										<a href="#" class="footer2__wrapper-partnersWrapper-item">
+												<img data-src="component/footer2/img/1.svg"
+														 class="b-lazy footer2__wrapper-partnersWrapper-item-img"
+														 alt="partner">
+										</a>
+
+										<a href="#" class="footer2__wrapper-partnersWrapper-item">
+												<img data-src="component/footer2/img/2.svg"
+														 class="b-lazy footer2__wrapper-partnersWrapper-item-img"
+														 alt="partner">
+										</a>
+
+										<a href="#" class="footer2__wrapper-partnersWrapper-item">
+												<img data-src="component/footer2/img/3.svg"
+														 class="b-lazy footer2__wrapper-partnersWrapper-item-img"
+														 alt="partner">
+										</a>
+
+										<a href="#" class="footer2__wrapper-partnersWrapper-item">
+												<img data-src="component/footer2/img/4.svg"
+														 class="b-lazy footer2__wrapper-partnersWrapper-item-img"
+														 alt="partner">
+										</a>
+
+										<a href="#" class="footer2__wrapper-partnersWrapper-item">
+												<img data-src="component/footer2/img/5.svg"
+														 class="b-lazy footer2__wrapper-partnersWrapper-item-img"
+														 alt="partner">
+										</a>
+
+										<a href="#" class="footer2__wrapper-partnersWrapper-item">
+												<img data-src="component/footer2/img/6.svg"
+														 class="b-lazy footer2__wrapper-partnersWrapper-item-img"
+														 alt="partner">
+										</a>
+
+										<a href="#" class="footer2__wrapper-partnersWrapper-item">
+												<img data-src="component/footer2/img/7.svg"
+														 class="b-lazy footer2__wrapper-partnersWrapper-item-img"
+														 alt="partner">
+										</a>
+
+								</div>
+								<div class="col-12 col-xl-2 footer2__wrapper-copyright">© YoyBrand 2023</div>
+								<div class="col-12 col-xl-5 footer2__wrapper-socialWrapper">
+
+										<a href="#" class="footer2__wrapper-socialWrapper-item">
+												<img data-src="img/social/vk.svg" class="b-lazy footer2__wrapper-socialWrapper-item-img"
+														 alt="vk">
+										</a>
+
+										<a href="#" class="footer2__wrapper-socialWrapper-item">
+												<img data-src="img/social/telegram.svg" class="b-lazy footer2__wrapper-socialWrapper-item-img"
+														 alt="telegram">
+										</a>
+
+										<a href="#" class="footer2__wrapper-socialWrapper-item">
+												<img data-src="img/social/whatsapp.svg" class="b-lazy footer2__wrapper-socialWrapper-item-img"
+														 alt="whatsapp">
+										</a>
+
+										<a href="#" class="footer2__wrapper-socialWrapper-item">
+												<img data-src="img/social/24.svg" class="b-lazy footer2__wrapper-socialWrapper-item-img"
+														 alt="24">
+										</a>
+
+										<a href="#" class="footer2__wrapper-socialWrapper-item">
+												<img data-src="img/social/yandex.svg" class="b-lazy footer2__wrapper-socialWrapper-item-img"
+														 alt="yandex">
+										</a>
+
+										<div class="footer2__wrapper-socialWrapper-currencyBox">
+												<!-- Active dropdown value -->
+												<div class="d-flex footer2__wrapper-socialWrapper-currencyBox-activeCurrency">
+														<div class="footer2__wrapper-socialWrapper-currencyBox-activeCurrency-value">
+																RUB
+														</div>
+														<img data-src="component/footer2/img/arrow-down.svg"
+																 alt="arrow-down"
+																 class="b-lazy footer2__wrapper-socialWrapper-currencyBox-activeCurrency-icon">
+												</div>
+
+												<!-- Dropdown menu -->
+												<ul class="footer2__wrapper-socialWrapper-currencyBox-dropdownMenu hidden">
+														<li class="footer2__wrapper-socialWrapper-currencyBox-dropdownMenu-item">USD</li>
+														<li class="footer2__wrapper-socialWrapper-currencyBox-dropdownMenu-item">BTC</li>
+														<li class="footer2__wrapper-socialWrapper-currencyBox-dropdownMenu-item">RUB</li>
+												</ul>
+										</div>
+
+								</div>
+						</div>
+				</div>
+		</div>
+
+</footer>
+
+<!-- blazy -->
+<script src="libs/blazy/blazy.min.js"></script>
+
+<!-- jQuery -->
+<script src="libs/jQuery/jquery-3.6.3.min.js"></script>
+
+<!-- SlickSlider -->
+<script type="text/javascript" src="libs/slick-slider/slick/slick.min.js"></script>
+
+<!-- Global script -->
+<script src="index.js"></script>
+
+<!-- Component scripts -->
+<script src="component/loader/loader.js"></script>
+<script src="component/header1/header1.js"></script>
+<script src="component/header2/header2.js"></script>
+<script src="component/header3/header3.js"></script>
+<script src="component/headerMobilePopup/headerMobilePopup.js"></script>
+<script src="component/introSlider/introSlider.js"></script>
+<script src="component/introSliderMobile/introSliderMobile.js"></script>
+<script src="component/collectionSlider/collectionSlider.js"></script>
+<script src="component/catalogGrid/catalogGrid.js"></script>
+<script src="component/benefits/benefits.js"></script>
+<script src="component/footer1/footer1.js"></script>
+<script src="component/footer2/footer2.js"></script>
+
+</body>
+</html>

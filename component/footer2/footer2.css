@@ -1,0 +1,109 @@
+.footer2 {
+  padding: 28px 0;
+  background-color: #F5F5F5;
+}
+
+.footer2__wrapper {
+
+}
+
+@media screen and (max-width: 1200px) {
+  .footer2__wrapper {
+    flex-direction: column;
+    gap: 30px;
+  }
+}
+
+.footer2__wrapper-partnersWrapper {
+  display: flex;
+  gap: 20px;
+}
+
+@media screen and (max-width: 1200px) {
+  .footer2__wrapper-partnersWrapper {
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .footer2__wrapper-partnersWrapper {
+    gap: 10px;
+  }
+}
+
+.footer2__wrapper-partnersWrapper-item {
+  cursor: pointer;
+  filter: grayscale(100%);
+  transition: all .2s ease-in-out;
+}
+@media screen and (max-width: 380px) {
+  .footer2__wrapper-partnersWrapper-item {
+    text-align: center;
+  }
+}
+
+.footer2__wrapper-partnersWrapper-item:hover {
+  filter: grayscale(0);
+}
+
+@media screen and (max-width: 380px) {
+  .footer2__wrapper-partnersWrapper-item-img {
+    width: 80%;
+  }
+}
+
+
+.footer2__wrapper-copyright {
+  text-align: center;
+  color: #666666;
+}
+
+.footer2__wrapper-socialWrapper {
+  justify-content: flex-end;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+@media screen and (max-width: 1200px) {
+  .footer2__wrapper-socialWrapper {
+    justify-content: center;
+  }
+}
+
+.footer2__wrapper-socialWrapper-currencyBox {
+  position: relative;
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+.footer2__wrapper-socialWrapper-currencyBox-activeCurrency-value {
+  margin-right: 8px;
+}
+
+.footer2__wrapper-socialWrapper-currencyBox-dropdownMenu {
+  position: absolute;
+  list-style-type: none;
+  padding: 0 8px;
+  margin: 0;
+  background-color: white;
+  border-radius: 2px;
+  box-shadow: 0 29px 45px rgba(164, 164, 164, 0.2);
+  z-index: 1000;
+  bottom: 30px;
+  transition: all .2s ease-in-out;
+}
+
+.footer2__wrapper-socialWrapper-currencyBox-dropdownMenu-item {
+  margin: 8px 0;
+  color: #666666;
+}
+
+.footer2__wrapper-socialWrapper-currencyBox-dropdownMenu-item:hover {
+  color: black;
+}
+
+.hidden {
+  opacity: 0;
+  pointer-events: none;
+}

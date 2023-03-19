@@ -1,0 +1,83 @@
+@media screen and (min-width: 576px) {
+  .container {
+    max-width: 100%;
+    padding: 0 48px;
+  }
+}
+
+@media screen and (min-width: 1680px) {
+  .container {
+    max-width: 1644px;
+  }
+}
+
+body {
+  font-family: 'Jost', sans-serif;
+  overflow-x: hidden;
+}
+
+.container {
+  height: 100%;
+}
+
+@font-face {
+  font-family: Jost;
+  font-style: normal;
+  font-weight: 400;
+  src: local('Jost'), url('fonts/Jost-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: Jost;
+  font-style: normal;
+  font-weight: 500;
+  src: local('Jost'), url('fonts/Jost-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: Jost;
+  font-style: normal;
+  font-weight: 600;
+  src: local('Jost'), url('fonts/Jost-SemiBold.ttf') format('truetype');
+}
+
+/* Slider dots animation */
+.slick-active .circle-loader::before {
+  animation: prixClipFix 3.5s linear infinite;
+  border: 1px solid black;
+}
+
+.circle-loader {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  position: relative;
+}
+.circle-loader::before {
+  content: "";
+  box-sizing: border-box;
+  position: absolute;
+  inset: 0px;
+  border-radius: 50%;
+  border: none;
+  animation: none;
+  transform: rotate(45deg);
+}
+.circle-loader__dot {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: black;
+  border-radius: 50%;
+}
+
+@keyframes prixClipFix {
+  0%   {clip-path:polygon(50% 50%,0 0,0 0,0 0,0 0,0 0)}
+  25%  {clip-path:polygon(50% 50%,0 0,100% 0,100% 0,100% 0,100% 0)}
+  50%  {clip-path:polygon(50% 50%,0 0,100% 0,100% 100%,100% 100%,100% 100%)}
+  75%  {clip-path:polygon(50% 50%,0 0,100% 0,100% 100%,0 100%,0 100%)}
+  100% {clip-path:polygon(50% 50%,0 0,100% 0,100% 100%,0 100%,0 0)}
+}

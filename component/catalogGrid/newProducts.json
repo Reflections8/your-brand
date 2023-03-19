@@ -1,0 +1,90 @@
+[
+  {
+    "id": 0,
+    "title": "Новое из льняной смеси",
+    "defaultImg": "img/catalogGrid/1.jpg",
+    "hoverImg": "img/catalogGrid/2.jpg",
+    "oldPrice": 3000,
+    "newPrice": 1500,
+    "isNew": true,
+    "isBestseller": true,
+    "isDiscounted": true
+  },
+  {
+    "id": 1,
+    "title": "Новое из льняной смеси 2",
+    "defaultImg": "img/catalogGrid/1.jpg",
+    "hoverImg": "img/catalogGrid/2.jpg",
+    "oldPrice": 3000,
+    "newPrice": 1500,
+    "isNew": true,
+    "isBestseller": true,
+    "isDiscounted": true
+  },
+  {
+    "id": 2,
+    "title": "Новое из льняной смеси 3",
+    "defaultImg": "img/catalogGrid/1.jpg",
+    "hoverImg": "img/catalogGrid/2.jpg",
+    "oldPrice": 3000,
+    "newPrice": 1500,
+    "isNew": false,
+    "isBestseller": false,
+    "isDiscounted": false
+  },
+  {
+    "id": 3,
+    "title": "Новое из льняной смеси 4",
+    "defaultImg": "img/catalogGrid/1.jpg",
+    "hoverImg": "img/catalogGrid/2.jpg",
+    "oldPrice": 3000,
+    "newPrice": 1500,
+    "isNew": false,
+    "isBestseller": false,
+    "isDiscounted": false
+  },
+  {
+    "id": 4,
+    "title": "Новое из льняной смеси 5",
+    "defaultImg": "img/catalogGrid/1.jpg",
+    "hoverImg": "img/catalogGrid/2.jpg",
+    "oldPrice": 3000,
+    "newPrice": 1500,
+    "isNew": false,
+    "isBestseller": false,
+    "isDiscounted": false
+  },
+  {
+    "id": 5,
+    "title": "Новое из льняной смеси 6",
+    "defaultImg": "img/catalogGrid/1.jpg",
+    "hoverImg": "img/catalogGrid/2.jpg",
+    "oldPrice": 3000,
+    "newPrice": 1500,
+    "isNew": false,
+    "isBestseller": false,
+    "isDiscounted": false
+  },
+  {
+    "id": 6,
+    "title": "Новое из льняной смеси 7",
+    "defaultImg": "img/catalogGrid/1.jpg",
+    "hoverImg": "img/catalogGrid/2.jpg",
+    "oldPrice": 3000,
+    "newPrice": 1500,
+    "isNew": false,
+    "isBestseller": false,
+    "isDiscounted": false
+  },
+  {
+    "id": 7,
+    "title": "Новое из льняной смеси 8",
+    "defaultImg": "img/catalogGrid/1.jpg",
+    "hoverImg": "img/catalogGrid/2.jpg",
+    "oldPrice": 3000,
+    "newPrice": 1500,
+    "isNew": false,
+    "isBestseller": false,
+    "isDiscounted": false
+  }
+]
